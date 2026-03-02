@@ -1,5 +1,11 @@
 # Awesome AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![Stars](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-ai/update-stars.yml?label=star%20updates)](https://github.com/edwardtay/awesome-ai/actions/workflows/update-stars.yml)
+[![Links](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-ai/links.yml?label=links)](https://github.com/edwardtay/awesome-ai/actions/workflows/links.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/edwardtay/awesome-ai)](https://github.com/edwardtay/awesome-ai/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/edwardtay/awesome-ai/pulls)
+[![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+
 > A curated list of AI APIs, tools, and platforms. 400+ tools across 40+ categories.
 
 > ⚠️ = aging (6-12 months since last commit) — may still work but watch for staleness.
