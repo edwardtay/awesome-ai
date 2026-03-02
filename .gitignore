@@ -9,3 +9,4 @@ report.json
 # Internal — not for the public repo
 growth/
 worker/
+scripts/

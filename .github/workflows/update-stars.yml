@@ -1,4 +1,4 @@
-name: Update Star Counts & Health Check
+name: Update Star Counts
 
 on:
   schedule:
@@ -19,10 +19,13 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Run health check (repos + commercial URLs)
+      - name: Update star counts and check health
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/update-stars.js
+        run: |
+          node -e '
+          const fs=require("fs"),path=require("path"),R=path.join(process.cwd(),"README.md"),T=process.env.GITHUB_TOKEN||"",S=365,h={Accept:"application/vnd.github.v3+json","User-Agent":"awesome-ai-bot"};if(T)h.Authorization="token "+T;function f(c){return c>=1e3?Math.round(c/1e3)+"k":String(c)}async function g(o,r){try{const s=await fetch("https://api.github.com/repos/"+o+"/"+r,{headers:h});if(!s.ok)return null;const d=await s.json();return{stars:d.stargazers_count,pushed_at:d.pushed_at,archived:d.archived}}catch{return null}}async function main(){let readme=fs.readFileSync(R,"utf-8");const re=/\[([^\]]+)\]\((https:\/\/github\.com\/([^/)]+)\/([^/)]+))\)/g,repos=[];let m;while((m=re.exec(readme))!==null)repos.push({name:m[1],url:m[2],owner:m[3],repo:m[4]});const seen=new Set,uq=repos.filter(r=>{const k=r.owner+"/"+r.repo;if(seen.has(k))return false;seen.add(k);return true});console.log("Found "+uq.length+" repos");const results=[];for(let i=0;i<uq.length;i+=10){const batch=uq.slice(i,i+10);const br=await Promise.all(batch.map(async r=>({...r,data:await g(r.owner,r.repo)})));results.push(...br);if(i+10<uq.length)await new Promise(r=>setTimeout(r,500))}let changes=0;const stale=[],dead=[];for(const r of results){if(!r.data){dead.push(r.owner+"/"+r.repo);continue}const ns=f(r.data.stars),d=(Date.now()-new Date(r.data.pushed_at).getTime())/864e5;if(d>S)stale.push({repo:r.owner+"/"+r.repo,lastPush:r.data.pushed_at.split("T")[0],days:Math.round(d)});const eu=r.url.replace(/[.*+?^${}()|[\]\\\\]/g,"\\\\$&"),en=r.name.replace(/[.*+?^${}()|[\]\\\\]/g,"\\\\$&"),rx=new RegExp("(\\\\["+en+"\\\\]\\\\("+eu+"\\\\)\\\\s*\\\\|\\\\s*)([\\\\d,]+k?|\\\\d+)","g");readme=readme.replace(rx,(fm,p,old)=>{if(old!==ns){changes++;console.log("  "+r.owner+"/"+r.repo+": "+old+" -> "+ns)}return p+ns})}fs.writeFileSync(R,readme);const report={timestamp:new Date().toISOString(),totalRepos:uq.length,starCountsUpdated:changes,staleRepos:stale,deadGithubRepos:dead};console.log("\\nUpdated: "+changes+" | Stale: "+stale.length+" | Dead: "+dead.length);stale.forEach(r=>console.log("  ⚠️  "+r.repo+" - "+r.lastPush));dead.forEach(r=>console.log("  💀 "+r));fs.writeFileSync("report.json",JSON.stringify(report,null,2));if(process.env.GITHUB_OUTPUT)fs.appendFileSync(process.env.GITHUB_OUTPUT,"changes="+changes+"\\nstale="+stale.length+"\\ndead="+dead.length+"\\n")}main().catch(e=>{console.error(e);process.exit(1)})
+          '
 
       - name: Read report
         id: report
@@ -30,43 +33,11 @@ jobs:
           if [ -f report.json ]; then
             echo "has_report=true" >> $GITHUB_OUTPUT
             STALE=$(jq '.staleRepos | length' report.json)
-            ARCHIVED=$(jq '.archivedRepos | length' report.json)
-            DEAD_REPOS=$(jq '.deadGithubRepos | length' report.json)
-            DEAD_URLS=$(jq '.deadUrls | length' report.json)
-            REDIRECTED=$(jq '.redirectedUrls | length' report.json)
-            TOTAL_GH=$(jq '.totalGithubRepos' report.json)
-            TOTAL_URLS=$(jq '.totalCommercialUrls' report.json)
+            DEAD=$(jq '.deadGithubRepos | length' report.json)
+            CHANGES=$(jq '.starCountsUpdated' report.json)
             echo "stale=$STALE" >> $GITHUB_OUTPUT
-            echo "archived=$ARCHIVED" >> $GITHUB_OUTPUT
-            echo "dead_repos=$DEAD_REPOS" >> $GITHUB_OUTPUT
-            echo "dead_urls=$DEAD_URLS" >> $GITHUB_OUTPUT
-            echo "redirected=$REDIRECTED" >> $GITHUB_OUTPUT
-            echo "total_gh=$TOTAL_GH" >> $GITHUB_OUTPUT
-            echo "total_urls=$TOTAL_URLS" >> $GITHUB_OUTPUT
-
-            # Build details section
-            DETAILS=""
-            if [ "$STALE" -gt 0 ]; then
-              DETAILS="$DETAILS\n### Stale Repos (no commits in 1+ year)\n"
-              DETAILS="$DETAILS$(jq -r '.staleRepos[] | "- \(.repo) — last push \(.lastPush) (\(.days) days ago)"' report.json)\n"
-            fi
-            if [ "$ARCHIVED" -gt 0 ]; then
-              DETAILS="$DETAILS\n### Archived Repos\n"
-              DETAILS="$DETAILS$(jq -r '.archivedRepos[] | "- \(.repo)"' report.json)\n"
-            fi
-            if [ "$DEAD_REPOS" -gt 0 ]; then
-              DETAILS="$DETAILS\n### Dead GitHub Repos\n"
-              DETAILS="$DETAILS$(jq -r '.deadGithubRepos[] | "- \(.repo) (\(.error))"' report.json)\n"
-            fi
-            if [ "$DEAD_URLS" -gt 0 ]; then
-              DETAILS="$DETAILS\n### Dead Commercial URLs\n"
-              DETAILS="$DETAILS$(jq -r '.deadUrls[] | "- \(.name) — \(.url) (\(.error))"' report.json)\n"
-            fi
-
-            # Write multiline output
-            echo "details<<EOF" >> $GITHUB_OUTPUT
-            echo -e "$DETAILS" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+            echo "dead=$DEAD" >> $GITHUB_OUTPUT
+            echo "changes=$CHANGES" >> $GITHUB_OUTPUT
           fi
 
       - name: Create PR with updates
@@ -74,22 +45,14 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: weekly health check"
-          title: "Weekly health check"
+          commit-message: "chore: update star counts and health check"
+          title: "Weekly star count update"
           body: |
-            ## Automated Health Check
+            ## Automated Update
 
-            | Check | Count |
-            |-------|-------|
-            | GitHub repos checked | ${{ steps.report.outputs.total_gh }} |
-            | Commercial URLs checked | ${{ steps.report.outputs.total_urls }} |
-            | Stale repos (1yr+) | ${{ steps.report.outputs.stale }} |
-            | Archived repos | ${{ steps.report.outputs.archived }} |
-            | Dead GitHub repos | ${{ steps.report.outputs.dead_repos }} |
-            | Dead commercial URLs | ${{ steps.report.outputs.dead_urls }} |
-            | Redirected URLs | ${{ steps.report.outputs.redirected }} |
-
-            ${{ steps.report.outputs.details }}
+            **Star counts updated:** ${{ steps.report.outputs.changes }}
+            **Stale repos detected:** ${{ steps.report.outputs.stale }}
+            **Dead links detected:** ${{ steps.report.outputs.dead }}
           branch: auto/update-stars
           delete-branch: true
           labels: automated
