@@ -1,0 +1,52 @@
+name: Update Star Counts
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday at 6am UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update star badges and check health
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-stars.js
+
+      - name: Read report
+        id: report
+        run: |
+          if [ -f report.json ]; then
+            echo "has_report=true" >> $GITHUB_OUTPUT
+            STALE=$(jq '.staleRepos | length' report.json)
+            DEAD=$(jq '.deadGithubRepos | length' report.json)
+            echo "stale=$STALE" >> $GITHUB_OUTPUT
+            echo "dead=$DEAD" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create PR with updates
+        if: steps.report.outputs.has_report == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: weekly star count & health check"
+          title: "Weekly star count update"
+          body: |
+            ## Automated Update
+
+            **Stale repos detected:** ${{ steps.report.outputs.stale }}
+            **Dead links detected:** ${{ steps.report.outputs.dead }}
+          branch: auto/update-stars
+          delete-branch: true
+          labels: automated

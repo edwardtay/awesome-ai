@@ -1,0 +1,72 @@
+name: Suggest a Tool
+description: Suggest an AI API or tool to add to the list
+title: "[Suggest] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: e.g. Anthropic Claude API
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL (GitHub repo or website)
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - LLM API Providers
+        - Open Source LLM Models
+        - AI Reasoning Models
+        - Open-Source Model Hosting & Inference
+        - LLM API Routers & Gateways
+        - Cloud AI Platforms
+        - AI Agent Frameworks
+        - AI Memory & Context Management
+        - Structured Output & Data Extraction
+        - AI Code Assistants
+        - AI Image Generation APIs
+        - AI Video Generation APIs
+        - AI Audio & Speech APIs
+        - AI Search APIs
+        - AI Translation APIs
+        - AI Writing & Content APIs
+        - Vector Databases & Embeddings
+        - RAG Tools & Frameworks
+        - AI Document Processing & OCR
+        - AI Database & SQL Assistants
+        - LLM Evaluation & Monitoring
+        - AI Gateway & Cost Management
+        - Prompt Engineering & Management
+        - Fine-Tuning Platforms
+        - AI Safety & Guardrails
+        - AI Compliance & Governance
+        - MLOps & Deployment
+        - AI Workflow & Automation
+        - AI Function Calling & Tool Use
+        - AI Testing & QA
+        - AI Synthetic Data Generation
+        - MCP (Model Context Protocol)
+        - AI Developer Tools & SDKs
+        - Realtime & Streaming AI
+        - Edge & On-Device AI
+        - Cloud GPU Providers
+        - AI Browser Extensions & Desktop Apps
+        - Web Scraping for AI
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Why should it be included?
+      placeholder: Brief description and why it's useful
+    validations:
+      required: true
