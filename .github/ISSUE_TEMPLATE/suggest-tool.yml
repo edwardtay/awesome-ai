@@ -13,7 +13,7 @@ body:
   - type: input
     id: url
     attributes:
-      label: URL (GitHub repo or website)
+      label: GitHub URL or website
       placeholder: https://github.com/owner/repo
     validations:
       required: true

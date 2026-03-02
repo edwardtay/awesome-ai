@@ -1,6 +1,6 @@
 # Awesome AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> 400+ AI APIs, tools, and platforms across 40+ categories.
+> A curated list of AI APIs, tools, and platforms. 400+ tools across 40+ categories.
 
 > ⚠️ = aging (6-12 months since last commit) — may still work but watch for staleness.
 
@@ -735,8 +735,6 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5k+ | Tools and resources for AI-assisted coding. |
 | [awesome-local-ai](https://github.com/janhq/awesome-local-ai) | 3k+ | Tools for running AI models locally. |
 
----
-
 ## 🪦 Deprecated Tools Graveyard
 
 | Dead Tool | Why | Use Instead |
@@ -752,8 +750,9 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 ## Contributing
 
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
+Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+- Add tools you've actually used or evaluated
+- Include star count and language where applicable
+- Note if a tool is unmaintained (last commit >1 year ago)
+- Commercial tools/services are fine but must be clearly labeled
