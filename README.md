@@ -46,6 +46,8 @@
 | [Inflection AI](https://inflection.ai/) | Creators of Pi, focused on empathetic and helpful interactions via enterprise API. |
 | [Reka AI](https://www.reka.ai/) | Multimodal models spanning text, images, and video understanding. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🔓 Open Source LLM Models
 
 | Tool | Stars | Description |
@@ -63,6 +65,8 @@
 | [OLMo (Allen AI)](https://allenai.org/olmo) | - | Training data, code, and weights all publicly available for reproducible research. |
 | [DBRX (Databricks)](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | - | MoE model with 132B total / 36B active parameters for enterprise use cases. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🤔 AI Reasoning Models
 
 | Tool | Description |
@@ -72,6 +76,8 @@
 | [Anthropic Claude (Extended Thinking)](https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking) | Hybrid mode producing instant or deep-thinking responses without switching models. |
 | [Google Gemini 2.5 Pro (Thinking)](https://ai.google.dev/) | Built-in thinking capabilities for multi-step problem solving. |
 | [QwQ (Qwen with Questions)](https://qwenlm.github.io/) | Strong math and coding chain-of-thought capabilities in the Qwen family. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🚀 Open-Source Model Hosting & Inference
 
@@ -90,6 +96,8 @@
 | [fal.ai](https://fal.ai/) | 600+ models with competitive pricing, optimized for generative media. |
 | [Novita AI](https://novita.ai/) | Affordable access to models for text, image, and audio generation. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🔀 LLM API Routers & Gateways
 
 | Tool | Stars | Description |
@@ -99,6 +107,8 @@
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## ☁️ Cloud AI Platforms (Managed)
 
@@ -111,6 +121,8 @@
 | [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning) | Automated ML, responsible AI dashboard, and managed endpoints. |
 | [Databricks](https://www.databricks.com/) | Unified analytics and AI with managed MLflow, Unity Catalog, and Mosaic AI. |
 | [IBM watsonx](https://www.ibm.com/watsonx) | Foundation models, model training, and AI governance for business workflows. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🤖 AI Agent Frameworks
 
@@ -131,6 +143,8 @@
 | [Smolagents](https://github.com/huggingface/smolagents) | 15k+ | Hugging Face's lightweight agent framework with minimal boilerplate. |
 | [CopilotKit](https://www.copilotkit.ai/) | - | Framework for building AI copilots into React applications with AG-UI protocol support. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 💾 AI Memory & Context Management
 
 Each tool takes a different approach to giving agents persistent memory across sessions.
@@ -144,6 +158,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [LangMem](https://github.com/langchain-ai/langmem) | 1k+ | Memory tools for LangGraph agents extracting information from conversations for long-term context. |
 | [Supermemory](https://supermemory.ai/) | - | Universal memory API with time-annotated semantic traces and scalable semantic recall. |
 | [Graphlit](https://www.graphlit.com/) | - | Semantic content infrastructure with multimodal ingestion linked to a shared knowledge graph. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 📊 Structured Output & Data Extraction
 
@@ -159,6 +175,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [JSONFormer](https://github.com/1rgs/jsonformer) | 4k+ | Constrains generation to only produce valid JSON tokens. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Enterprise document parsing with agentic OCR for extracting structured data from complex documents. |
 | [Docling](https://github.com/docling-project/docling) | 18k+ | IBM's document parser with 97.9% accuracy on complex table extraction. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 💻 AI Code Assistants
 
@@ -177,6 +195,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [JetBrains AI](https://www.jetbrains.com/ai/) | Natively integrated into JetBrains IDEs with context-aware completions. |
 | [Google Gemini Code Assist](https://cloud.google.com/gemini/docs/codeassist/overview) | Powered by Gemini models with Google Cloud integration. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🎨 AI Image Generation APIs
 
 | Tool | Description |
@@ -189,6 +209,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Leonardo AI API](https://leonardo.ai/) | Presets optimized for game art, textures, and product visuals. |
 | [Google Imagen API](https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview) | Imagen 3/4 models via Vertex AI with studio-quality outputs. |
 | [Midjourney](https://www.midjourney.com/) | Best for artistic and aesthetic outputs; accessible via Discord bot. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🎬 AI Video Generation APIs
 
@@ -205,6 +227,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Google Veo API](https://deepmind.google/technologies/veo/) | Native audio integration and high-fidelity output via Vertex AI. |
 | [Twelve Labs](https://twelvelabs.io/) | Multimodal video understanding: search, classification, and generation from video content. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🎙️ AI Audio & Speech APIs
 
 | Tool | Description |
@@ -219,6 +243,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Speechify API](https://speechify.com/) | Apple Design Award winner with 1,000+ voices in 60+ languages. |
 | [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) | Speech-to-speech for real-time voice applications with low latency. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🔍 AI Search APIs
 
 | Tool | Description |
@@ -231,6 +257,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [You.com API](https://you.com/apis) | Deep Search, Express Agent, and MCP support. |
 | [Serper API](https://serper.dev/) | Fast, affordable Google SERP API for high-volume use cases. |
 | [WebSearch API](https://websearchapi.ai/) | Web search API designed for AI workflow integration. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🌐 AI Translation APIs
 
@@ -247,6 +275,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Lokalise](https://lokalise.com/) | 400+ languages with tone, style, and industry customization. |
 | [Tolgee](https://tolgee.io/) | In-context translating features, popular with JavaScript developers. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## ✍️ AI Writing & Content APIs
 
 | Tool | Description |
@@ -260,6 +290,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Grammarly API](https://developer.grammarly.com/) | Grammar, tone, clarity, and brand-voice checking for integration into applications. |
 | [Anyword](https://anyword.com/) | Predictive performance scoring that forecasts content performance before publishing. |
 | [Wordtune](https://www.wordtune.com/) | Rewriting and paraphrasing by AI21 Labs for improving clarity, tone, and conciseness. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 📐 Vector Databases & Embeddings
 
@@ -286,6 +318,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Google Embedding API](https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings) | Text and multimodal embeddings via Vertex AI with Gecko and newer models. |
 | [Jina AI Embeddings](https://jina.ai/) | API-based embedding models with multilingual support and reranking. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 📚 RAG Tools & Frameworks
 
 | Tool | Description |
@@ -297,6 +331,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [LangChain Retrievers](https://python.langchain.com/docs/modules/data_connection/) | Modular retrieval components supporting vector stores, multi-query, and contextual compression. |
 | [Cohere Rerank](https://cohere.com/rerank) | Neural reranking that improves search relevance by reordering results on semantic similarity. |
 | [Morphik](https://www.morphik.ai/) | RAG infrastructure for building and deploying retrieval-augmented generation systems. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 📄 AI Document Processing & OCR
 
@@ -312,6 +348,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Reducto](https://www.reducto.ai/) | - | API-first parsing for extracting structured data from PDFs for RAG pipelines. |
 | [Mindee](https://www.mindee.com/) | - | Developer-friendly extraction for invoices, receipts, IDs, and custom document types. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🗃️ AI Database & SQL Assistants
 
 | Tool | Description |
@@ -324,6 +362,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [SQL Chat](https://www.sqlchat.ai/) | Chat-based SQL client using natural language. |
 | [BlazeSQL](https://www.blazesql.com/) | Generates SQL from natural language by parsing schema metadata. |
 | [DataGPT](https://datagpt.com/) | Slack-native analytics answering business questions with raw SQL transparency. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 📏 LLM Evaluation & Monitoring
 
@@ -342,6 +382,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Evidently AI](https://www.evidentlyai.com/) | Detects data drift and model performance degradation. |
 | [Fiddler AI](https://www.fiddler.ai/) | Focused on explainability, fairness, and compliance for ML and LLM models. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 💰 AI Gateway & Cost Management
 
 | Tool | Description |
@@ -351,6 +393,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Keywords AI](https://keywordsai.co/) | Tracks usage, latency, and spend across providers. |
 | [Lunary](https://lunary.ai/) | LLM monitoring and analytics with cost tracking and prompt management. |
 | [OpenRouter](https://openrouter.ai/) | Unified API marketplace for 100+ LLMs with transparent pricing and cost optimization. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🎯 Prompt Engineering & Management
 
@@ -362,6 +406,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Pezzo](https://www.pezzo.ai/) | Lightweight prompt management for versioning, testing, and instant deployment. |
 | [Promptfoo](https://promptfoo.dev/) | CLI for prompt testing, evaluation, and red-teaming with YAML-based configuration. |
 | [Maxim AI](https://www.getmaxim.ai/) | Prompt management and evaluation with testing workflows and version control. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🔧 Fine-Tuning Platforms
 
@@ -375,6 +421,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Lambda Cloud](https://lambdalabs.com/) | - | GPU cloud optimized for AI training with zero egress fees and InfiniBand networking. |
 | [Anyscale](https://www.anyscale.com/) | - | Built on Ray for distributed fine-tuning and serving of LLMs. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🛡️ AI Safety & Guardrails
 
 | Tool | Stars | Description |
@@ -385,6 +433,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [LLM Guard](https://llm-guard.com/) | - | Scanners for prompt injection, PII, and toxicity in LLM interactions. |
 | [Rebuff](https://github.com/protectai/rebuff) | 1k+ | Self-hardening prompt injection detector that learns from attack attempts over time. |
 | [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety) | - | Detects harmful content in text and images with configurable severity levels. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## ⚖️ AI Compliance & Governance
 
@@ -397,6 +447,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Fairly AI](https://fairly.ai/) | AI risk management for financial services with model validation and bias detection. |
 | [Drata](https://drata.com/) | Compliance automation with AI-powered controls for SOC 2, ISO 27001, and AI regulations. |
 | [Securiti AI](https://securiti.ai/) | Data command center with AI governance, data privacy, and consent management. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🏭 MLOps & Deployment
 
@@ -415,6 +467,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Neptune.ai](https://neptune.ai/) | Experiment tracking and model registry for logging, comparing, and collaborating on models. |
 | [Comet ML](https://www.comet.com/) | Experiment management with real-time tracking, model comparison, and production monitoring. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## ⚡ AI Workflow & Automation
 
 | Tool | Description |
@@ -432,6 +486,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Hatchet](https://hatchet.run/) | Distributed task queue for reliable background jobs and AI agent workflows. |
 | [Relay.app](https://www.relay.app/) | Human-in-the-loop automation combining AI steps with human approval. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🔌 AI Function Calling & Tool Use
 
 | Tool | Description |
@@ -441,6 +497,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Arcade AI](https://www.arcade-ai.com/) | Authenticated API access to third-party services for AI agents. |
 | [NPI (Natural Programming Interface)](https://www.npi.ai/) | Tool-use APIs enabling AI agents to operate software tools. |
 | [Dify](https://dify.ai/) | Platform (93K+ stars) for AI agents with built-in RAG, Function Calling, and ReAct strategies. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🧪 AI Testing & QA
 
@@ -454,6 +512,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [QA Wolf](https://www.qawolf.com/) | AI + human-in-the-loop QA with Playwright-based testing and massive parallelization. |
 | [Qodo](https://www.qodo.ai/) | Generates meaningful test suites and improves code quality. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🧬 AI Synthetic Data Generation
 
 | Tool | Description |
@@ -464,6 +524,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [YData](https://ydata.ai/) | Automated data profiling with synthetic generation for improving AI training quality. |
 | [Hazy](https://hazy.com/) | Privacy-preserving synthetic data for regulated industries using differential privacy. |
 | [Synthesis AI](https://synthesis.ai/) | Specialized in computer vision training with photorealistic 3D-rendered images. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🏷️ AI Data Labeling & Annotation
 
@@ -476,6 +538,8 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Label Studio](https://labelstud.io/) | Flexible templates, ML backends, and model-in-the-loop support. |
 | [Encord](https://encord.com/) | Computer vision labeling with active learning and model-assisted labeling. |
 | [CVAT](https://www.cvat.ai/) | Annotation tool for computer vision including image and video labeling. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🔗 MCP (Model Context Protocol)
 
@@ -499,6 +563,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 5k+ | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🛠️ AI Developer Tools & SDKs
 
 | Tool | Description |
@@ -511,6 +577,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Flowise](https://flowiseai.com/) | Node.js visual AI workflow builder for agents and chatbots. |
 | [Dify](https://dify.ai/) | LLM app development platform with visual workflow builder and model management. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## ⏱️ Realtime & Streaming AI
 
 | Tool | Description |
@@ -521,6 +589,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Deepgram Streaming](https://deepgram.com/) | Real-time STT with sub-250ms latency via WebSocket for live transcription. |
 | [AG-UI Protocol](https://www.copilotkit.ai/ag-ui) | Protocol for streaming agent events between AI backends and frontend UIs. |
 | [Decart](https://decart.ai/) | Lucy 2 model generating video live with near-zero latency. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🎭 Multi-Modal AI APIs
 
@@ -533,6 +603,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Meta Llama Multimodal](https://ai.meta.com/llama/) | Vision capabilities via various inference providers. |
 | [Twelve Labs](https://twelvelabs.io/) | Video understanding: search, classification, and generation from video. |
 | [Roboflow](https://roboflow.com/) | Computer vision APIs for training, deploying, and managing detection and segmentation models. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 📱 Edge & On-Device AI
 
@@ -549,6 +621,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [LocalAI](https://localai.io/) | - | Self-hosted OpenAI-compatible API for running models locally. |
 | [LlamaEdge](https://llamaedge.com/) | - | Lightweight runtime for deploying LLMs at the edge using WebAssembly. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🖥️ Cloud GPU Providers
 
 | Tool | Description |
@@ -562,6 +636,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Paperspace (DigitalOcean)](https://www.paperspace.com/) | Notebooks, virtual desktops, and serverless functions for ML development. |
 | [Crusoe Cloud](https://crusoe.ai/) | Clean-energy-powered GPU cloud for sustainable AI workloads. |
 | [Fluidstack](https://www.fluidstack.io/) | Distributed GPU cloud aggregating idle compute at competitive prices. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🧩 AI Browser Extensions & Desktop Apps
 
@@ -577,6 +653,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Pieces for Developers](https://pieces.app/) | Captures live context from browsers to IDEs with multiple LLM support. |
 | [HARPA AI](https://harpa.ai/) | Chrome extension combining ChatGPT, Claude, Gemini, Perplexity for web page automation. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🎮 AI Playgrounds & API Testing
 
 | Tool | Stars | Description |
@@ -588,6 +666,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Msty](https://msty.app/) | - | Desktop app for managing multiple LLM providers with conversation branching and prompt library. |
 | [OpenPlayground](https://github.com/nat/openplayground) | 3k+ | LLM playground for running and comparing models locally. |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ## 🕷️ Web Scraping & Data Extraction for AI
 
 | Tool | Stars | Description |
@@ -597,6 +677,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | - | Scraping library using LLMs to create pipelines from natural language. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 📖 AI Knowledge Management
 
@@ -608,6 +690,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Mem](https://mem.ai/) | Note-taking that self-organizes information using machine learning. |
 | [Slite](https://slite.com/) | Collaborative docs using AI to categorize content, identify gaps, and surface relevant info. |
 | [Confluence AI](https://www.atlassian.com/software/confluence) | Atlassian's enterprise wiki with AI-powered search and content generation. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🏆 Benchmarks & Leaderboards
 
@@ -622,6 +706,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [MTEB (Massive Text Embedding Benchmark)](https://huggingface.co/spaces/mteb/leaderboard) | Evaluates embedding models across retrieval, classification, and clustering. |
 | [EvalPlus](https://evalplus.github.io/) | 80x more test cases than HumanEval to address overfitting. |
 | [BigCodeBench](https://bigcode-bench.github.io/) | 1,140 tasks requiring composing function calls from 139 libraries. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 📚 Learning Resources
 
@@ -690,7 +776,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 | Resource | Description |
 |----------|-------------|
-| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | Former Tesla AI Director teaching neural networks from scratch in "Zero to Hero." |
+| [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) | Former Tesla AI Director teaching neural networks from scratch in "Zero to Hero.". |
 | [3Blue1Brown](https://www.youtube.com/@3blue1brown) | Beautifully animated explanations of mathematics, neural networks, and deep learning. |
 | [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) | Detailed breakdowns of the latest ML research papers. |
 | [AI Explained](https://www.youtube.com/@aiexplained-official) | Clear explanations of AI concepts and model comparisons. |
@@ -726,6 +812,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [ICLR](https://iclr.cc/) | International Conference on Learning Representations (April 2026, Rio de Janeiro). |
 | [AI Engineer World's Fair](https://www.ai.engineer/worldsfair) | Practitioner-focused conference (June-July 2026, San Francisco). |
 
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
+
 ---
 
 ## 🔗 Related Awesome Lists
@@ -740,17 +828,24 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 3k+ | LLM agent frameworks and tools. |
 | [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5k+ | Tools and resources for AI-assisted coding. |
 | [awesome-local-ai](https://github.com/janhq/awesome-local-ai) | 3k+ | Tools for running AI models locally. |
+| [awesome-scrapers](https://github.com/edwardtay/awesome-scrapers) | - | Scrapers, crawlers, and data extraction tools. |
+| [awesome-robotics](https://github.com/edwardtay/awesome-robotics) | - | Robotics frameworks, simulators, and platforms. |
+| [awesome-web3-ai](https://github.com/edwardtay/awesome-web3-ai) | - | Web3 x AI tools, agent frameworks, and protocols. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🪦 Deprecated Tools Graveyard
 
 | Dead Tool | Why | Use Instead |
 |-----------|-----|-------------|
-| OpenAI Codex | Shut down Mar 2023 | GPT-4o, Claude Code |
-| Hugging Face Inference API (free) | Removed free tier | Hugging Face Inference Endpoints (paid) |
-| Jasper Boss Mode | Rebranded/discontinued | Jasper AI platform |
-| ChatGPT Plugins | Shut down Apr 2024 | GPTs, function calling |
-| Bard | Renamed to Gemini | Google Gemini |
-| LangChain Agents (legacy) | Deprecated in favor of LangGraph | LangGraph |
+| OpenAI Codex | Shut down Mar 2023 | GPT-4o, Claude Code. |
+| Hugging Face Inference API (free) | Removed free tier | Hugging Face Inference Endpoints (paid). |
+| Jasper Boss Mode | Rebranded/discontinued | Jasper AI platform. |
+| ChatGPT Plugins | Shut down Apr 2024 | GPTs, function calling. |
+| Bard | Renamed to Gemini | Google Gemini. |
+| LangChain Agents (legacy) | Deprecated in favor of LangGraph | LangGraph. |
+
+<p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ---
 
@@ -762,3 +857,9 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 - Include star count and language where applicable
 - Note if a tool is unmaintained (last commit >1 year ago)
 - Commercial tools/services are fine but must be clearly labeled
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Edward Tay](https://github.com/edwardtay) has waived all copyright and related or neighboring rights to this work.
