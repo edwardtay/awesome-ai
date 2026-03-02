@@ -1,8 +1,6 @@
-# Awesome AI APIs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of AI APIs, LLM tools, and platforms for building intelligent applications. 400+ tools across 40+ categories.
-
-If you find this useful, please star the repo — it helps others discover it!
+> A curated list of AIs. 400+ tools across 40+ categories.
 
 ## Contents
 
