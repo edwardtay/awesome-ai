@@ -1,4 +1,4 @@
-name: Update Star Counts
+name: Update Star Counts & Health Check
 
 on:
   schedule:
@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Update star badges and check health
+      - name: Run health check (repos + commercial URLs)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-stars.js
@@ -30,9 +30,43 @@ jobs:
           if [ -f report.json ]; then
             echo "has_report=true" >> $GITHUB_OUTPUT
             STALE=$(jq '.staleRepos | length' report.json)
-            DEAD=$(jq '.deadGithubRepos | length' report.json)
+            ARCHIVED=$(jq '.archivedRepos | length' report.json)
+            DEAD_REPOS=$(jq '.deadGithubRepos | length' report.json)
+            DEAD_URLS=$(jq '.deadUrls | length' report.json)
+            REDIRECTED=$(jq '.redirectedUrls | length' report.json)
+            TOTAL_GH=$(jq '.totalGithubRepos' report.json)
+            TOTAL_URLS=$(jq '.totalCommercialUrls' report.json)
             echo "stale=$STALE" >> $GITHUB_OUTPUT
-            echo "dead=$DEAD" >> $GITHUB_OUTPUT
+            echo "archived=$ARCHIVED" >> $GITHUB_OUTPUT
+            echo "dead_repos=$DEAD_REPOS" >> $GITHUB_OUTPUT
+            echo "dead_urls=$DEAD_URLS" >> $GITHUB_OUTPUT
+            echo "redirected=$REDIRECTED" >> $GITHUB_OUTPUT
+            echo "total_gh=$TOTAL_GH" >> $GITHUB_OUTPUT
+            echo "total_urls=$TOTAL_URLS" >> $GITHUB_OUTPUT
+
+            # Build details section
+            DETAILS=""
+            if [ "$STALE" -gt 0 ]; then
+              DETAILS="$DETAILS\n### Stale Repos (no commits in 1+ year)\n"
+              DETAILS="$DETAILS$(jq -r '.staleRepos[] | "- \(.repo) — last push \(.lastPush) (\(.days) days ago)"' report.json)\n"
+            fi
+            if [ "$ARCHIVED" -gt 0 ]; then
+              DETAILS="$DETAILS\n### Archived Repos\n"
+              DETAILS="$DETAILS$(jq -r '.archivedRepos[] | "- \(.repo)"' report.json)\n"
+            fi
+            if [ "$DEAD_REPOS" -gt 0 ]; then
+              DETAILS="$DETAILS\n### Dead GitHub Repos\n"
+              DETAILS="$DETAILS$(jq -r '.deadGithubRepos[] | "- \(.repo) (\(.error))"' report.json)\n"
+            fi
+            if [ "$DEAD_URLS" -gt 0 ]; then
+              DETAILS="$DETAILS\n### Dead Commercial URLs\n"
+              DETAILS="$DETAILS$(jq -r '.deadUrls[] | "- \(.name) — \(.url) (\(.error))"' report.json)\n"
+            fi
+
+            # Write multiline output
+            echo "details<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$DETAILS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           fi
 
       - name: Create PR with updates
@@ -40,13 +74,22 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: weekly star count & health check"
-          title: "Weekly star count update"
+          commit-message: "chore: weekly health check"
+          title: "Weekly health check"
           body: |
-            ## Automated Update
+            ## Automated Health Check
 
-            **Stale repos detected:** ${{ steps.report.outputs.stale }}
-            **Dead links detected:** ${{ steps.report.outputs.dead }}
+            | Check | Count |
+            |-------|-------|
+            | GitHub repos checked | ${{ steps.report.outputs.total_gh }} |
+            | Commercial URLs checked | ${{ steps.report.outputs.total_urls }} |
+            | Stale repos (1yr+) | ${{ steps.report.outputs.stale }} |
+            | Archived repos | ${{ steps.report.outputs.archived }} |
+            | Dead GitHub repos | ${{ steps.report.outputs.dead_repos }} |
+            | Dead commercial URLs | ${{ steps.report.outputs.dead_urls }} |
+            | Redirected URLs | ${{ steps.report.outputs.redirected }} |
+
+            ${{ steps.report.outputs.details }}
           branch: auto/update-stars
           delete-branch: true
           labels: automated
