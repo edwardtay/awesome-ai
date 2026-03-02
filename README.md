@@ -73,14 +73,14 @@ If you find this useful, please star the repo — it helps others discover it!
 
 - [Llama 4 (Meta)](https://ai.meta.com/llama/) - Meta's open-source models with Scout (17B active/109B experts) and Maverick variants, 128K context, and strong general performance.
 - [Qwen 3 (Alibaba)](https://qwenlm.github.io/) - Alibaba's MoE model family (up to 235B parameters) excelling in multilingual and reasoning tasks with open weights.
-- [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) - 671B parameter MoE model (MIT license) matching frontier models on benchmarks at a fraction of the cost.
-- [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1) - Open-source reasoning model trained via large-scale RL achieving o1-level performance (MIT license).
+- [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) ![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3?style=flat-square&label=⭐) - 671B parameter MoE model (MIT license) matching frontier models on benchmarks at a fraction of the cost.
+- [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1) ![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=flat-square&label=⭐) - Open-source reasoning model trained via large-scale RL achieving o1-level performance (MIT license).
 - [Mistral Large / Mixtral](https://mistral.ai/) - Mistral's model family including Mixtral MoE and Small 3 (24B) punching above their weight in efficiency.
 - [Gemma 3 (Google)](https://ai.google.dev/gemma) - Google's open-weight model family available in multiple sizes with strong performance for its parameter count.
 - [Phi-4 (Microsoft)](https://azure.microsoft.com/en-us/products/phi/) - Microsoft's small language model built on synthetic datasets achieving state-of-the-art performance for its size.
 - [Command R+ (Cohere)](https://cohere.com/) - Open-weight model optimized for RAG and enterprise use with strong multilingual capabilities.
 - [Yi (01.AI)](https://www.01.ai/) - 01.AI's bilingual (Chinese-English) models with strong performance in independent benchmarks.
-- [StarCoder2](https://github.com/bigcode-project/starcoder2) - Open-source code LLM in 3B/7B/15B sizes where the 15B matches 33B+ models on code evaluations.
+- [StarCoder2](https://github.com/bigcode-project/starcoder2) ![GitHub stars](https://img.shields.io/github/stars/bigcode-project/starcoder2?style=flat-square&label=⭐) - Open-source code LLM in 3B/7B/15B sizes where the 15B matches 33B+ models on code evaluations.
 - [OLMo (Allen AI)](https://allenai.org/olmo) - Fully open-source LLM with training data, code, and weights all publicly available for reproducible research.
 - [DBRX (Databricks)](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) - Open-source MoE model with 132B total / 36B active parameters for enterprise use cases.
 
@@ -116,7 +116,7 @@ If you find this useful, please star the repo — it helps others discover it!
 ## LLM API Routers & Gateways
 
 - [OpenRouter](https://openrouter.ai/) - Unified API for 100+ LLMs from multiple providers with simple integration and transparent pricing comparison.
-- [LiteLLM](https://github.com/BerriAI/litellm) - Open-source proxy/gateway providing a unified API to call 100+ LLMs with load balancing, fallbacks, and spend tracking.
+- [LiteLLM](https://github.com/BerriAI/litellm) ![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=⭐) - Open-source proxy/gateway providing a unified API to call 100+ LLMs with load balancing, fallbacks, and spend tracking.
 - [Martian](https://withmartian.com/) - AI-powered LLM router that automatically selects the best model for each request using Model Mapping technology.
 - [Portkey](https://portkey.ai/) - Enterprise AI gateway with load balancing, caching, fallbacks, and observability.
 - [Helicone](https://www.helicone.ai/) - Open-source, Rust-based AI gateway with sophisticated load balancing, native observability, and cost tracking.
@@ -145,11 +145,11 @@ If you find this useful, please star the repo — it helps others discover it!
 - [Microsoft Semantic Kernel](https://learn.microsoft.com/semantic-kernel/) - Enterprise SDK for LLM integration with deep Azure ecosystem support across C#, Python, and Java.
 - [DSPy](https://dspy.ai/) - Declarative framework for programming (not prompting) language models with automatic prompt optimization.
 - [Haystack](https://haystack.deepset.ai/) - Open-source AI orchestration framework for building production-ready LLM applications with modular pipelines.
-- [Instructor](https://github.com/jxnl/instructor) - Library for structured output extraction from LLMs using Pydantic models with validation and retry logic.
+- [Instructor](https://github.com/jxnl/instructor) ![GitHub stars](https://img.shields.io/github/stars/jxnl/instructor?style=flat-square&label=⭐) - Library for structured output extraction from LLMs using Pydantic models with validation and retry logic.
 - [Pydantic AI](https://ai.pydantic.dev/) - Agent framework from the Pydantic team for building production-grade AI applications with type-safe structured outputs.
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - OpenAI's official framework for building agentic workflows with tool use, handoffs, and guardrails.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square&label=⭐) - OpenAI's official framework for building agentic workflows with tool use, handoffs, and guardrails.
 - [Google ADK (Agent Development Kit)](https://google.github.io/adk-docs/) - Google's framework for building AI agents with native Gemini integration and multi-agent orchestration.
-- [Smolagents](https://github.com/huggingface/smolagents) - Hugging Face's lightweight agent framework for building simple, effective AI agents with minimal boilerplate.
+- [Smolagents](https://github.com/huggingface/smolagents) ![GitHub stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square&label=⭐) - Hugging Face's lightweight agent framework for building simple, effective AI agents with minimal boilerplate.
 - [CopilotKit](https://www.copilotkit.ai/) - Open-source framework for building AI copilots into React applications with AG-UI protocol support.
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
@@ -160,7 +160,7 @@ If you find this useful, please star the repo — it helps others discover it!
 - [Zep](https://www.getzep.com/) - Temporal knowledge graph memory for AI assistants tracking how facts change over time with structured business data.
 - [Letta (MemGPT)](https://www.letta.com/) - Agent framework with first-class memory management exposing editable memory blocks and stateful runtime.
 - [Cognee](https://www.cognee.ai/) - Open-source AI memory engine finding hidden connections in data using knowledge graphs with semantic embeddings.
-- [LangMem](https://github.com/langchain-ai/langmem) - Memory tools for LangGraph agents extracting information from conversations and maintaining long-term context.
+- [LangMem](https://github.com/langchain-ai/langmem) ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square&label=⭐) - Memory tools for LangGraph agents extracting information from conversations and maintaining long-term context.
 - [Supermemory](https://supermemory.ai/) - Universal memory API for AI apps with time-annotated semantic traces and scalable semantic recall.
 - [Graphlit](https://www.graphlit.com/) - Semantic content infrastructure for agents with multimodal ingestion linked to a shared knowledge graph.
 
@@ -168,16 +168,16 @@ If you find this useful, please star the repo — it helps others discover it!
 
 ## Structured Output & Data Extraction
 
-- [Instructor](https://github.com/jxnl/instructor) - Library for structured output extraction from LLMs using Pydantic models with validation and retry logic.
-- [BAML](https://github.com/BoundaryML/baml) - Domain-specific language for writing and testing LLM functions that generate structured outputs with type-safe validation.
-- [Marvin](https://github.com/prefecthq/marvin) - Lightweight Python library for building reliable natural language interfaces that extract structured data from LLMs.
-- [Outlines](https://github.com/dottxt-org/outlines) - Python library for constrained text generation using regular expressions, JSON schemas, and context-free grammars.
-- [Guidance](https://github.com/guidance-ai/guidance) - Microsoft's language for controlling LLMs with interleaving generation, prompting, and logical control.
-- [SGLang](https://github.com/sgl-project/sglang) - Fast serving framework for LLMs with built-in structured output support via JSON schema, regex, and EBNF.
-- [TypeChat](https://github.com/microsoft/TypeChat) - Microsoft's library that uses TypeScript types to guide LLM outputs into well-typed structured responses.
-- [JSONFormer](https://github.com/1rgs/jsonformer) - Library for generating structured JSON from LLMs by constraining generation to only produce valid JSON tokens.
+- [Instructor](https://github.com/jxnl/instructor) ![GitHub stars](https://img.shields.io/github/stars/jxnl/instructor?style=flat-square&label=⭐) - Library for structured output extraction from LLMs using Pydantic models with validation and retry logic.
+- [BAML](https://github.com/BoundaryML/baml) ![GitHub stars](https://img.shields.io/github/stars/BoundaryML/baml?style=flat-square&label=⭐) - Domain-specific language for writing and testing LLM functions that generate structured outputs with type-safe validation.
+- [Marvin](https://github.com/prefecthq/marvin) ![GitHub stars](https://img.shields.io/github/stars/prefecthq/marvin?style=flat-square&label=⭐) - Lightweight Python library for building reliable natural language interfaces that extract structured data from LLMs.
+- [Outlines](https://github.com/dottxt-org/outlines) ![GitHub stars](https://img.shields.io/github/stars/dottxt-org/outlines?style=flat-square&label=⭐) - Python library for constrained text generation using regular expressions, JSON schemas, and context-free grammars.
+- [Guidance](https://github.com/guidance-ai/guidance) ![GitHub stars](https://img.shields.io/github/stars/guidance-ai/guidance?style=flat-square&label=⭐) - Microsoft's language for controlling LLMs with interleaving generation, prompting, and logical control.
+- [SGLang](https://github.com/sgl-project/sglang) ![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=flat-square&label=⭐) - Fast serving framework for LLMs with built-in structured output support via JSON schema, regex, and EBNF.
+- [TypeChat](https://github.com/microsoft/TypeChat) ![GitHub stars](https://img.shields.io/github/stars/microsoft/TypeChat?style=flat-square&label=⭐) - Microsoft's library that uses TypeScript types to guide LLM outputs into well-typed structured responses.
+- [JSONFormer](https://github.com/1rgs/jsonformer) ![GitHub stars](https://img.shields.io/github/stars/1rgs/jsonformer?style=flat-square&label=⭐) - Library for generating structured JSON from LLMs by constraining generation to only produce valid JSON tokens.
 - [LlamaParse](https://www.llamaindex.ai/llamaparse) - Enterprise document parsing platform with agentic OCR that extracts structured data from complex documents.
-- [Docling](https://github.com/docling-project/docling) - IBM's open-source document parser with 97.9% accuracy on complex table extraction.
+- [Docling](https://github.com/docling-project/docling) ![GitHub stars](https://img.shields.io/github/stars/docling-project/docling?style=flat-square&label=⭐) - IBM's open-source document parser with 97.9% accuracy on complex table extraction.
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
@@ -292,7 +292,7 @@ If you find this useful, please star the repo — it helps others discover it!
 - [Chroma](https://www.trychroma.com/) - Developer-friendly open-source embedding database, ideal for prototyping RAG systems.
 - [Milvus](https://milvus.io/) - Open-source vector database leading in low latency benchmarks with support for billions of vectors.
 - [Zilliz Cloud](https://zilliz.com/) - Fully managed cloud service for Milvus with enterprise features and production SLAs.
-- [pgvector](https://github.com/pgvector/pgvector) - Open-source PostgreSQL extension for vector similarity search, keeping vectors and relational data together.
+- [pgvector](https://github.com/pgvector/pgvector) ![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=flat-square&label=⭐) - Open-source PostgreSQL extension for vector similarity search, keeping vectors and relational data together.
 - [LanceDB](https://lancedb.com/) - Open-source, serverless vector database built on Lance columnar format with zero-copy access.
 
 ### Embedding APIs
@@ -324,7 +324,7 @@ If you find this useful, please star the repo — it helps others discover it!
 - [Amazon Textract](https://aws.amazon.com/textract/) - AWS OCR service for extracting text, forms, and tables from documents integrated with S3 and Lambda.
 - [Mistral OCR](https://mistral.ai/news/mistral-ocr) - Mistral's document understanding API processing 1000 pages/$ with state-of-the-art accuracy.
 - [LlamaParse](https://www.llamaindex.ai/llamaparse) - Enterprise document parsing with agentic OCR that extracts structured data from complex documents.
-- [Docling](https://github.com/docling-project/docling) - IBM's open-source document parser with 97.9% accuracy on complex table extraction.
+- [Docling](https://github.com/docling-project/docling) ![GitHub stars](https://img.shields.io/github/stars/docling-project/docling?style=flat-square&label=⭐) - IBM's open-source document parser with 97.9% accuracy on complex table extraction.
 - [Mathpix](https://mathpix.com/) - OCR API specialized in recognizing mathematical equations, scientific documents, and LaTeX conversion.
 - [Reducto](https://www.reducto.ai/) - API-first document parsing for extracting structured data from PDFs and documents for RAG pipelines.
 - [Mindee](https://www.mindee.com/) - Developer-friendly OCR API with AI-powered extraction for invoices, receipts, IDs, and custom document types.
@@ -387,7 +387,7 @@ If you find this useful, please star the repo — it helps others discover it!
 - [OpenAI Fine-Tuning](https://platform.openai.com/docs/guides/fine-tuning) - Managed fine-tuning for GPT models with reinforcement fine-tuning preview.
 - [Together AI Fine-Tuning](https://www.together.ai/) - Cloud-based fine-tuning for open-source models with LoRA adapter support.
 - [Predibase](https://predibase.com/) - Low-code fine-tuning and hosting platform with LoRAX multi-adapter serving and serverless deployment.
-- [LoRAX](https://github.com/predibase/lorax) - Open-source framework for serving 100s of fine-tuned LoRA adapters on a single GPU.
+- [LoRAX](https://github.com/predibase/lorax) ![GitHub stars](https://img.shields.io/github/stars/predibase/lorax?style=flat-square&label=⭐) - Open-source framework for serving 100s of fine-tuned LoRA adapters on a single GPU.
 - [Modal Fine-Tuning](https://modal.com/) - Serverless GPU compute for fine-tuning with pay-per-use pricing and zero idle costs.
 - [Lambda Cloud](https://lambdalabs.com/) - GPU cloud optimized for AI training with zero egress fees and InfiniBand networking.
 - [Anyscale](https://www.anyscale.com/) - Scalable platform built on Ray for distributed fine-tuning and serving of open-source LLMs.
@@ -397,10 +397,10 @@ If you find this useful, please star the repo — it helps others discover it!
 ## AI Safety & Guardrails
 
 - [Guardrails AI](https://www.guardrailsai.com/) - Open-source framework for LLM output validation with pre-built validators from Guardrails Hub.
-- [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Open-source toolkit for adding programmable safety guardrails using a domain-specific language.
+- [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=flat-square&label=⭐) - Open-source toolkit for adding programmable safety guardrails using a domain-specific language.
 - [Lakera Guard](https://www.lakera.ai/) - Real-time prompt injection detection API with customizable safeguards and monitoring dashboards.
 - [LLM Guard](https://llm-guard.com/) - Open-source toolkit for securing LLM interactions with scanners for prompt injection, PII, and toxicity.
-- [Rebuff](https://github.com/protectai/rebuff) - Self-hardening prompt injection detector that learns from attack attempts over time.
+- [Rebuff](https://github.com/protectai/rebuff) ![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=flat-square&label=⭐) - Self-hardening prompt injection detector that learns from attack attempts over time.
 - [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety) - Microsoft's API for detecting harmful content in text and images with configurable severity levels.
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
@@ -501,15 +501,15 @@ If you find this useful, please star the repo — it helps others discover it!
 ### Core Protocol
 
 - [Model Context Protocol Specification](https://modelcontextprotocol.io/) - Open standard by Anthropic (donated to Linux Foundation AAIF) for connecting AI models to external tools and data.
-- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers and clients.
-- [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers and clients.
+- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/typescript-sdk?style=flat-square&label=⭐) - Official TypeScript SDK for building MCP servers and clients.
+- [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk?style=flat-square&label=⭐) - Official Python SDK for building MCP servers and clients.
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Open catalog for discovering MCP servers with ~2,000 entries and 407% growth since launch.
 
 ### Notable MCP Servers
 
-- [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) - Official collection of reference MCP server implementations.
-- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Community-curated collection covering 7,260+ servers across diverse integrations.
-- [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Microsoft's MCP server enabling LLMs to interact with web pages through accessibility snapshots.
+- [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square&label=⭐) - Official collection of reference MCP server implementations.
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) ![GitHub stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat-square&label=⭐) - Community-curated collection covering 7,260+ servers across diverse integrations.
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp) ![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright-mcp?style=flat-square&label=⭐) - Microsoft's MCP server enabling LLMs to interact with web pages through accessibility snapshots.
 - [ActionKit by Paragon](https://www.useparagon.com/) - MCP server connecting to 130+ SaaS integrations for AI agent workflows.
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
@@ -553,11 +553,11 @@ If you find this useful, please star the repo — it helps others discover it!
 
 - [Ollama](https://ollama.com/) - Run LLMs locally with a single command, supporting a wide range of open-source models with easy management.
 - [LM Studio](https://lmstudio.ai/) - Desktop application for running LLMs locally with Vulkan GPU offloading and model discovery.
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) - C/C++ LLM inference engine optimized for CPU-only inference with extensive quantization support.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) ![GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=flat-square&label=⭐) - C/C++ LLM inference engine optimized for CPU-only inference with extensive quantization support.
 - [vLLM](https://vllm.ai/) - High-throughput LLM serving engine with PagedAttention and continuous batching.
-- [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA's optimized inference library achieving 30-70% faster throughput on NVIDIA GPUs.
-- [MLX](https://github.com/ml-explore/mlx) - Apple's machine learning framework for Apple Silicon achieving ~230 tokens/second.
-- [ExecuTorch](https://github.com/pytorch/executorch) - Meta's on-device AI framework with 50KB footprint supporting 12+ hardware backends.
+- [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=flat-square&label=⭐) - NVIDIA's optimized inference library achieving 30-70% faster throughput on NVIDIA GPUs.
+- [MLX](https://github.com/ml-explore/mlx) ![GitHub stars](https://img.shields.io/github/stars/ml-explore/mlx?style=flat-square&label=⭐) - Apple's machine learning framework for Apple Silicon achieving ~230 tokens/second.
+- [ExecuTorch](https://github.com/pytorch/executorch) ![GitHub stars](https://img.shields.io/github/stars/pytorch/executorch?style=flat-square&label=⭐) - Meta's on-device AI framework with 50KB footprint supporting 12+ hardware backends.
 - [Jan](https://jan.ai/) - Open-source, offline-first desktop AI assistant for running LLMs locally with privacy-first design.
 - [LocalAI](https://localai.io/) - Open-source, self-hosted alternative to OpenAI with a compatible API for running models locally.
 - [LlamaEdge](https://llamaedge.com/) - Lightweight runtime for deploying LLMs at the edge using WebAssembly.
@@ -599,14 +599,14 @@ If you find this useful, please star the repo — it helps others discover it!
 - [TypingMind](https://www.typingmind.com/) - Premium LLM frontend supporting multiple models with your own API keys and custom plugins.
 - [ChatHub](https://chathub.gg/) - Browser extension for using ChatGPT, Claude, Gemini side-by-side in one interface.
 - [Msty](https://msty.app/) - Desktop app for managing multiple LLM providers with conversation branching and prompt library.
-- [OpenPlayground](https://github.com/nat/openplayground) - Open-source LLM playground for running and comparing models locally.
+- [OpenPlayground](https://github.com/nat/openplayground) ![GitHub stars](https://img.shields.io/github/stars/nat/openplayground?style=flat-square&label=⭐) - Open-source LLM playground for running and comparing models locally.
 
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
 ## Web Scraping & Data Extraction for AI
 
 - [Firecrawl](https://www.firecrawl.dev/) - API for scraping, crawling, and extracting structured data from websites into LLM-ready formats.
-- [Crawl4AI](https://github.com/unclecode/crawl4ai) - Open-source AI-ready web crawler (58k+ stars) generating clean Markdown with local LLM support.
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) ![GitHub stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=flat-square&label=⭐) - Open-source AI-ready web crawler (58k+ stars) generating clean Markdown with local LLM support.
 - [Spider](https://spider.cloud/) - Fast web scraping API designed for AI applications with structured data extraction.
 - [Jina Reader](https://jina.ai/reader/) - API for converting any URL into LLM-friendly text for AI consumption.
 - [ScrapeGraphAI](https://scrapegraphai.com/) - Open-source scraping library using LLMs to create intelligent pipelines from natural language.
@@ -645,15 +645,15 @@ If you find this useful, please star the repo — it helps others discover it!
 - [OpenAI API Quickstart](https://platform.openai.com/docs/quickstart) - Official getting started guide covering chat completions, tool use, and multimodal capabilities.
 - [OpenAI Academy](https://academy.openai.com/) - Workshops and content from foundational AI literacy to advanced integration for engineers.
 - [Anthropic Getting Started](https://docs.anthropic.com/en/docs/get-started) - Official guide to set up your environment, install an SDK, and send your first message to Claude.
-- [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) - Collection of projects to help build deployable applications using the Claude API.
+- [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) ![GitHub stars](https://img.shields.io/github/stars/anthropics/claude-quickstarts?style=flat-square&label=⭐) - Collection of projects to help build deployable applications using the Claude API.
 - [Google Gemini Quickstart](https://ai.google.dev/gemini-api/docs/quickstart) - Step-by-step tutorials for getting started with Gemini models and the Gemini API.
-- [Google Gemini Cookbook](https://github.com/google-gemini/cookbook) - Official examples and guides for using the Gemini API with hands-on tutorials.
+- [Google Gemini Cookbook](https://github.com/google-gemini/cookbook) ![GitHub stars](https://img.shields.io/github/stars/google-gemini/cookbook?style=flat-square&label=⭐) - Official examples and guides for using the Gemini API with hands-on tutorials.
 - [OpenAI Cookbook](https://cookbook.openai.com/) - Community-driven collection of recipes, guides, and notebooks for building with OpenAI models.
 - [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official strategies for getting better results from LLMs.
-- [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) - Interactive tutorial for effective prompt design with Claude.
+- [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) ![GitHub stars](https://img.shields.io/github/stars/anthropics/prompt-eng-interactive-tutorial?style=flat-square&label=⭐) - Interactive tutorial for effective prompt design with Claude.
 - [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive community-driven guide covering techniques and examples for all skill levels.
-- [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) - Free 21-lesson course covering generative AI fundamentals with code examples.
-- [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) - Free 12-lesson course for getting started building AI agents.
+- [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) ![GitHub stars](https://img.shields.io/github/stars/microsoft/generative-ai-for-beginners?style=flat-square&label=⭐) - Free 21-lesson course covering generative AI fundamentals with code examples.
+- [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) ![GitHub stars](https://img.shields.io/github/stars/microsoft/ai-agents-for-beginners?style=flat-square&label=⭐) - Free 12-lesson course for getting started building AI agents.
 
 ### Courses
 
@@ -729,14 +729,14 @@ If you find this useful, please star the repo — it helps others discover it!
 
 ## Related Awesome Lists
 
-- [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - Curated ChatGPT prompts for creative and effective use.
-- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Collection of LLM app examples with code.
-- [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) - Broad curated list of generative AI tools and resources.
-- [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) - Tools and projects using LangChain.
-- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Community-curated MCP server collection.
-- [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) - Curated list of LLM agent frameworks and tools.
-- [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) - Tools and resources for AI-assisted coding.
-- [awesome-local-ai](https://github.com/janhq/awesome-local-ai) - Tools for running AI models locally.
+- [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) ![GitHub stars](https://img.shields.io/github/stars/f/awesome-chatgpt-prompts?style=flat-square&label=⭐) - Curated ChatGPT prompts for creative and effective use.
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ![GitHub stars](https://img.shields.io/github/stars/Shubhamsaboo/awesome-llm-apps?style=flat-square&label=⭐) - Collection of LLM app examples with code.
+- [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) ![GitHub stars](https://img.shields.io/github/stars/steven2358/awesome-generative-ai?style=flat-square&label=⭐) - Broad curated list of generative AI tools and resources.
+- [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) ![GitHub stars](https://img.shields.io/github/stars/kyrolabs/awesome-langchain?style=flat-square&label=⭐) - Tools and projects using LangChain.
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ![GitHub stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat-square&label=⭐) - Community-curated MCP server collection.
+- [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) ![GitHub stars](https://img.shields.io/github/stars/kaushikb11/awesome-llm-agents?style=flat-square&label=⭐) - Curated list of LLM agent frameworks and tools.
+- [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) ![GitHub stars](https://img.shields.io/github/stars/filipecalegario/awesome-vibe-coding?style=flat-square&label=⭐) - Tools and resources for AI-assisted coding.
+- [awesome-local-ai](https://github.com/janhq/awesome-local-ai) ![GitHub stars](https://img.shields.io/github/stars/janhq/awesome-local-ai?style=flat-square&label=⭐) - Tools for running AI models locally.
 
 ---
 
