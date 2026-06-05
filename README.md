@@ -103,6 +103,7 @@
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [OpenRouter](https://openrouter.ai/) | - | Unified API for 100+ LLMs from multiple providers with transparent pricing comparison. |
+| [CoderPlan](https://coderplan.ai/) | - | Unified LLM API gateway with OpenAI-compatible access to Claude, GPT, Gemini, DeepSeek and 20+ models. Pay-per-use at ~0.7x official pricing. |
 | [LiteLLM](https://github.com/BerriAI/litellm) | 18k+ | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
