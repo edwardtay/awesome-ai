@@ -155,7 +155,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Zep](https://www.getzep.com/) | - | Temporal knowledge graph tracking how facts change over time with structured business data. |
 | [Letta (MemGPT)](https://www.letta.com/) | - | Agent framework with first-class memory management exposing editable memory blocks and stateful runtime. |
 | [Cognee](https://www.cognee.ai/) | - | Memory engine finding hidden connections in data using knowledge graphs with semantic embeddings. |
-| [LangMem](https://github.com/langchain-ai/langmem) | 1k | Memory tools for LangGraph agents extracting information from conversations for long-term context. |
+| [LangMem](https://github.com/langchain-ai/langmem) | 2k | Memory tools for LangGraph agents extracting information from conversations for long-term context. |
 | [Supermemory](https://supermemory.ai/) | - | Universal memory API with time-annotated semantic traces and scalable semantic recall. |
 | [Graphlit](https://www.graphlit.com/) | - | Semantic content infrastructure with multimodal ingestion linked to a shared knowledge graph. |
 
@@ -174,7 +174,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [TypeChat](https://github.com/microsoft/TypeChat) | 9k | Uses TypeScript types to guide LLM outputs into well-typed structured responses. |
 | [JSONFormer](https://github.com/1rgs/jsonformer) | 5k | Constrains generation to only produce valid JSON tokens. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Enterprise document parsing with agentic OCR for extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 61k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
+| [Docling](https://github.com/docling-project/docling) | 62k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -343,7 +343,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Amazon Textract](https://aws.amazon.com/textract/) | - | Extracts text, forms, and tables integrated with S3 and Lambda. |
 | [Mistral OCR](https://mistral.ai/news/mistral-ocr) | - | OCR API for extracting structured content from documents. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Agentic OCR extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 61k | Document conversion toolkit with table, layout, and structured-output support. |
+| [Docling](https://github.com/docling-project/docling) | 62k | Document conversion toolkit with table, layout, and structured-output support. |
 | [Mathpix](https://mathpix.com/) | - | Specialized in mathematical equations, scientific documents, and LaTeX conversion. |
 | [Reducto](https://www.reducto.ai/) | - | API-first parsing for extracting structured data from PDFs for RAG pipelines. |
 | [Mindee](https://www.mindee.com/) | - | Developer-friendly extraction for invoices, receipts, IDs, and custom document types. |
@@ -431,7 +431,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | 6k | Programmable safety guardrails using a domain-specific language. |
 | [Lakera Guard](https://www.lakera.ai/) | - | Real-time prompt injection detection with customizable safeguards and monitoring dashboards. |
 | [LLM Guard](https://llm-guard.com/) | - | Scanners for prompt injection, PII, and toxicity in LLM interactions. |
-| [Rebuff](https://github.com/protectai/rebuff) | 1k | Self-hardening prompt injection detector that learns from attack attempts over time. |
+| [Rebuff](https://github.com/protectai/rebuff) | 2k | Self-hardening prompt injection detector that learns from attack attempts over time. |
 | [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety) | - | Detects harmful content in text and images with configurable severity levels. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -612,7 +612,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [Ollama](https://ollama.com/) | - | Run LLMs locally with a single command; wide model support with easy management. |
 | [LM Studio](https://lmstudio.ai/) | - | Desktop app for running LLMs locally with Vulkan GPU offloading and model discovery. |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 116k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 117k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
 | [vLLM](https://vllm.ai/) | - | High-throughput serving with PagedAttention and continuous batching. |
 | [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 14k | Inference runtime and optimization toolkit for large language models on NVIDIA GPUs. |
 | [MLX](https://github.com/ml-explore/mlx) | 27k | Apple's array and machine-learning framework optimized for Apple silicon. |
@@ -673,7 +673,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Firecrawl](https://www.firecrawl.dev/) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 68k | AI-ready web crawler generating clean Markdown with local LLM support. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 69k | AI-ready web crawler generating clean Markdown with local LLM support. |
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | - | Scraping library using LLMs to create pipelines from natural language. |
@@ -821,7 +821,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | List | Stars | Description |
 |------|-------|-------------|
 | [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 164k | Curated ChatGPT prompts for creative and effective use. |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 114k | LLM app examples with code. |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 115k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 12k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 9k | Tools and projects using LangChain. |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 89k | Community-curated MCP server collection. |
