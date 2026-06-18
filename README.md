@@ -576,6 +576,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Langflow](https://www.langflow.org/) | Low-code Python-based builder for visually creating agentic and RAG applications. |
 | [Flowise](https://flowiseai.com/) | Node.js visual AI workflow builder for agents and chatbots. |
 | [Dify](https://dify.ai/) | LLM app development platform with visual workflow builder and model management. |
+| [Roblox GUI Maker](https://robloxguimaker.dev/) | Web tool for planning Roblox Studio ScreenGui hierarchies, HUD and menu layouts, and Lua UI starter code from prompts. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
