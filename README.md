@@ -103,7 +103,7 @@
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [OpenRouter](https://openrouter.ai/) | - | Unified API for 100+ LLMs from multiple providers with transparent pricing comparison. |
-| [LiteLLM](https://github.com/BerriAI/litellm) | 51k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
+| [LiteLLM](https://github.com/BerriAI/litellm) | 52k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
@@ -138,7 +138,7 @@
 | [Haystack](https://haystack.deepset.ai/) | - | AI orchestration framework for LLM applications with modular pipelines. |
 | [Instructor](https://github.com/jxnl/instructor) | 13k | Structured output extraction using Pydantic models with validation and retry logic. |
 | [Pydantic AI](https://ai.pydantic.dev/) | - | Agent framework from the Pydantic team with type-safe structured outputs. |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 27k | OpenAI's official framework for agentic workflows with tool use, handoffs, and guardrails. |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 28k | OpenAI's official framework for agentic workflows with tool use, handoffs, and guardrails. |
 | [Google ADK (Agent Development Kit)](https://google.github.io/adk-docs/) | - | Google's framework with native Gemini integration and multi-agent orchestration. |
 | [Smolagents](https://github.com/huggingface/smolagents) | 28k | Hugging Face's lightweight agent framework with minimal boilerplate. |
 | [CopilotKit](https://www.copilotkit.ai/) | - | Framework for building AI copilots into React applications with AG-UI protocol support. |
@@ -428,7 +428,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Guardrails AI](https://www.guardrailsai.com/) | - | LLM output validation with pre-built validators from Guardrails Hub. |
-| [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | 6k | Programmable safety guardrails using a domain-specific language. |
+| [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | 7k | Programmable safety guardrails using a domain-specific language. |
 | [Lakera Guard](https://www.lakera.ai/) | - | Real-time prompt injection detection with customizable safeguards and monitoring dashboards. |
 | [LLM Guard](https://llm-guard.com/) | - | Scanners for prompt injection, PII, and toxicity in LLM interactions. |
 | [Rebuff](https://github.com/protectai/rebuff) | 2k | Self-hardening prompt injection detector that learns from attack attempts over time. |
@@ -612,7 +612,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [Ollama](https://ollama.com/) | - | Run LLMs locally with a single command; wide model support with easy management. |
 | [LM Studio](https://lmstudio.ai/) | - | Desktop app for running LLMs locally with Vulkan GPU offloading and model discovery. |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 118k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 119k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
 | [vLLM](https://vllm.ai/) | - | High-throughput serving with PagedAttention and continuous batching. |
 | [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 14k | Inference runtime and optimization toolkit for large language models on NVIDIA GPUs. |
 | [MLX](https://github.com/ml-explore/mlx) | 27k | Apple's array and machine-learning framework optimized for Apple silicon. |
@@ -673,7 +673,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Firecrawl](https://www.firecrawl.dev/) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 69k | AI-ready web crawler generating clean Markdown with local LLM support. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 70k | AI-ready web crawler generating clean Markdown with local LLM support. |
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | - | Scraping library using LLMs to create pipelines from natural language. |
@@ -820,8 +820,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 | List | Stars | Description |
 |------|-------|-------------|
-| [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 164k | Curated ChatGPT prompts for creative and effective use. |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 115k | LLM app examples with code. |
+| [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 165k | Curated ChatGPT prompts for creative and effective use. |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 116k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 12k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 9k | Tools and projects using LangChain. |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 90k | Community-curated MCP server collection. |
