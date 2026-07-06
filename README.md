@@ -103,7 +103,7 @@
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [OpenRouter](https://openrouter.ai/) | - | Unified API for 100+ LLMs from multiple providers with transparent pricing comparison. |
-| [LiteLLM](https://github.com/BerriAI/litellm) | 52k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
+| [LiteLLM](https://github.com/BerriAI/litellm) | 53k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
@@ -166,7 +166,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Instructor](https://github.com/jxnl/instructor) | 13k | Structured output extraction using Pydantic models with validation and retry logic. |
-| [BAML](https://github.com/BoundaryML/baml) | 8k | Domain-specific language for writing and testing LLM functions with type-safe validation. |
+| [BAML](https://github.com/BoundaryML/baml) | 9k | Domain-specific language for writing and testing LLM functions with type-safe validation. |
 | [Marvin](https://github.com/prefecthq/marvin) | 6k | Lightweight Python library for natural language interfaces that extract structured data from LLMs. |
 | [Outlines](https://github.com/dottxt-ai/outlines) | 14k | Constrained text generation using regular expressions, JSON schemas, and context-free grammars. |
 | [Guidance](https://github.com/guidance-ai/guidance) | 22k | Microsoft's language for controlling LLMs with interleaving generation, prompting, and logical control. |
@@ -174,7 +174,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [TypeChat](https://github.com/microsoft/TypeChat) | 9k | Uses TypeScript types to guide LLM outputs into well-typed structured responses. |
 | [JSONFormer](https://github.com/1rgs/jsonformer) | 5k | Constrains generation to only produce valid JSON tokens. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Enterprise document parsing with agentic OCR for extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 62k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
+| [Docling](https://github.com/docling-project/docling) | 63k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -343,7 +343,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Amazon Textract](https://aws.amazon.com/textract/) | - | Extracts text, forms, and tables integrated with S3 and Lambda. |
 | [Mistral OCR](https://mistral.ai/news/mistral-ocr) | - | OCR API for extracting structured content from documents. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Agentic OCR extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 62k | Document conversion toolkit with table, layout, and structured-output support. |
+| [Docling](https://github.com/docling-project/docling) | 63k | Document conversion toolkit with table, layout, and structured-output support. |
 | [Mathpix](https://mathpix.com/) | - | Specialized in mathematical equations, scientific documents, and LaTeX conversion. |
 | [Reducto](https://www.reducto.ai/) | - | API-first parsing for extracting structured data from PDFs for RAG pipelines. |
 | [Mindee](https://www.mindee.com/) | - | Developer-friendly extraction for invoices, receipts, IDs, and custom document types. |
@@ -551,7 +551,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [Model Context Protocol Specification](https://modelcontextprotocol.io/) | - | The protocol spec defining how AI models connect to tools and data. |
 | [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | 13k | Official TypeScript SDK for building MCP servers and clients. |
-| [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) | 23k | Official Python SDK for building MCP servers and clients. |
+| [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) | 24k | Official Python SDK for building MCP servers and clients. |
 | [MCP Registry](https://registry.modelcontextprotocol.io/) | - | Catalog with ~2,000 entries and 407% growth since launch. |
 
 ### Notable MCP Servers
@@ -560,7 +560,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) | 88k | Official collection of reference server implementations. |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 90k | Community-curated collection covering 7,260+ servers across diverse integrations. |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 34k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 35k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -673,7 +673,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Firecrawl](https://www.firecrawl.dev/) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 70k | AI-ready web crawler generating clean Markdown with local LLM support. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 71k | AI-ready web crawler generating clean Markdown with local LLM support. |
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | - | Scraping library using LLMs to create pipelines from natural language. |
@@ -725,8 +725,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) | - | Strategies for getting better results from LLMs. |
 | [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | 37k | Interactive tutorial for effective prompt design with Claude. |
 | [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/) | - | Community-driven guide covering techniques and examples for all skill levels. |
-| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 112k | Free 21-lesson course covering generative AI fundamentals with code examples. |
-| [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 68k | Free 12-lesson course for getting started building AI agents. |
+| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 113k | Free 21-lesson course covering generative AI fundamentals with code examples. |
+| [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 69k | Free 12-lesson course for getting started building AI agents. |
 
 ### Courses
 
@@ -821,7 +821,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | List | Stars | Description |
 |------|-------|-------------|
 | [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 165k | Curated ChatGPT prompts for creative and effective use. |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 116k | LLM app examples with code. |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 117k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 12k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 9k | Tools and projects using LangChain. |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 90k | Community-curated MCP server collection. |
