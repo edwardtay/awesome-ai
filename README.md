@@ -393,6 +393,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Keywords AI](https://keywordsai.co/) | Tracks usage, latency, and spend across providers. |
 | [Lunary](https://lunary.ai/) | LLM monitoring and analytics with cost tracking and prompt management. |
 | [OpenRouter](https://openrouter.ai/) | Unified API marketplace for 100+ LLMs with transparent pricing and cost optimization. |
+| [LLM Price Watch](https://llmpricewatch.com/) | Live pricing tracker across Anthropic, OpenAI, Google, DeepSeek, and xAI, with a free cost-calculator API and a use-case-based model recommendation endpoint. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
