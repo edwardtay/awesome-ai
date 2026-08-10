@@ -107,6 +107,7 @@
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
+| [PORDL](https://pordl.dev) | - | OpenAI-compatible proxy with smart routing across DeepSeek V4 and GPT models. 0% markup on DeepSeek, SSE streaming, creative routing mode for roleplay/writing frontends. [Open source](https://github.com/plagtech/pordl). |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
