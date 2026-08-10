@@ -257,6 +257,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [You.com API](https://you.com/apis) | Deep Search, Express Agent, and MCP support. |
 | [Serper API](https://serper.dev/) | Fast, affordable Google SERP API for high-volume use cases. |
 | [WebSearch API](https://websearchapi.ai/) | Web search API designed for AI workflow integration. |
+| [JMT x402 Agent Tools](https://jmt-x402-proxy.jmthomasofficial.workers.dev) — 25 paid x402 endpoints on Base mainnet: web search, AI analysis, crypto/stock data, SEC filings, company intel, news, sentiment, macro dashboard. $0.001-$0.15/call USDC. Local LLM-powered. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
