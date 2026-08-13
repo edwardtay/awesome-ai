@@ -645,6 +645,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------------|
 | [ChatGPT Desktop](https://openai.com/chatgpt/desktop/) | Native desktop app with system-wide access via global shortcuts. |
 | [Claude Desktop](https://claude.ai/download) | MCP-based extensions and local tool integration. |
+| [Orkas](https://github.com/Orkas-AI/Orkas) | MIT-licensed, local-first desktop AI workforce where a Commander coordinates specialist agents through one chat. |
 | [Poe](https://poe.com/) | Multi-model platform accessing GPT-4, Claude, Gemini, Llama, and custom bots in one interface. |
 | [Perplexity](https://www.perplexity.ai/) | AI search engine as web app and browser extension providing cited answers. |
 | [Raycast AI](https://www.raycast.com/) | macOS launcher with built-in AI and extensions for system-wide access. |
