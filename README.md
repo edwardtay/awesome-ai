@@ -209,6 +209,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Leonardo AI API](https://leonardo.ai/) | Presets optimized for game art, textures, and product visuals. |
 | [Google Imagen API](https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview) | Imagen 3/4 models via Vertex AI with studio-quality outputs. |
 | [Midjourney](https://www.midjourney.com/) | Best for artistic and aesthetic outputs; accessible via Discord bot. |
+| [Magic Hour API](https://docs.magichour.ai/) | One API for GPT-image, Nano Banana Pro, Seedream, and FLUX image generation and editing, with a free tier. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -226,6 +227,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [D-ID API](https://www.d-id.com/api/) | Talking-head videos from images and audio, supporting 120+ languages. |
 | [Google Veo API](https://deepmind.google/technologies/veo/) | Native audio integration and high-fidelity output via Vertex AI. |
 | [Twelve Labs](https://twelvelabs.io/) | Multimodal video understanding: search, classification, and generation from video content. |
+| [Magic Hour API](https://docs.magichour.ai/) | Single API and hosted MCP server for Sora 2, Veo 3.1, Kling 3.0, and Seedance video plus face swap, lip sync, and talking photo. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
