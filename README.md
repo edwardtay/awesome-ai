@@ -103,7 +103,7 @@
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [OpenRouter](https://openrouter.ai/) | - | Unified API for 100+ LLMs from multiple providers with transparent pricing comparison. |
-| [LiteLLM](https://github.com/BerriAI/litellm) | 57k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
+| [LiteLLM](https://github.com/BerriAI/litellm) | 58k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
@@ -170,11 +170,11 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Marvin](https://github.com/prefecthq/marvin) | 6k | Lightweight Python library for natural language interfaces that extract structured data from LLMs. |
 | [Outlines](https://github.com/dottxt-ai/outlines) | 16k | Constrained text generation using regular expressions, JSON schemas, and context-free grammars. |
 | [Guidance](https://github.com/guidance-ai/guidance) | 22k | Microsoft's language for controlling LLMs with interleaving generation, prompting, and logical control. |
-| [SGLang](https://github.com/sgl-project/sglang) | 32k | Fast serving framework with built-in structured output via JSON schema, regex, and EBNF. |
+| [SGLang](https://github.com/sgl-project/sglang) | 33k | Fast serving framework with built-in structured output via JSON schema, regex, and EBNF. |
 | [TypeChat](https://github.com/microsoft/TypeChat) | 9k | Uses TypeScript types to guide LLM outputs into well-typed structured responses. |
 | [JSONFormer](https://github.com/1rgs/jsonformer) | 5k | Constrains generation to only produce valid JSON tokens. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Enterprise document parsing with agentic OCR for extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 65k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
+| [Docling](https://github.com/docling-project/docling) | 66k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -343,7 +343,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Amazon Textract](https://aws.amazon.com/textract/) | - | Extracts text, forms, and tables integrated with S3 and Lambda. |
 | [Mistral OCR](https://mistral.ai/news/mistral-ocr) | - | OCR API for extracting structured content from documents. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Agentic OCR extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 65k | Document conversion toolkit with table, layout, and structured-output support. |
+| [Docling](https://github.com/docling-project/docling) | 66k | Document conversion toolkit with table, layout, and structured-output support. |
 | [Mathpix](https://mathpix.com/) | - | Specialized in mathematical equations, scientific documents, and LaTeX conversion. |
 | [Reducto](https://www.reducto.ai/) | - | API-first parsing for extracting structured data from PDFs for RAG pipelines. |
 | [Mindee](https://www.mindee.com/) | - | Developer-friendly extraction for invoices, receipts, IDs, and custom document types. |
@@ -559,8 +559,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) | 90k | Official collection of reference server implementations. |
-| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 93k | Community-curated collection covering 7,260+ servers across diverse integrations. |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 36k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
+| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 94k | Community-curated collection covering 7,260+ servers across diverse integrations. |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 37k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -612,9 +612,9 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [Ollama](https://ollama.com/) | - | Run LLMs locally with a single command; wide model support with easy management. |
 | [LM Studio](https://lmstudio.ai/) | - | Desktop app for running LLMs locally with Vulkan GPU offloading and model discovery. |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 125k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 126k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
 | [vLLM](https://vllm.ai/) | - | High-throughput serving with PagedAttention and continuous batching. |
-| [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 14k | Inference runtime and optimization toolkit for large language models on NVIDIA GPUs. |
+| [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 15k | Inference runtime and optimization toolkit for large language models on NVIDIA GPUs. |
 | [MLX](https://github.com/ml-explore/mlx) | 28k | Apple's array and machine-learning framework optimized for Apple silicon. |
 | [ExecuTorch](https://github.com/pytorch/executorch) | 5k | Meta's on-device framework with 50KB footprint supporting 12+ hardware backends. |
 | [Jan](https://jan.ai/) | - | Offline-first desktop AI assistant for running LLMs locally with privacy-first design. |
@@ -673,7 +673,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Firecrawl](https://www.firecrawl.dev/) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 79k | AI-ready web crawler generating clean Markdown with local LLM support. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 81k | AI-ready web crawler generating clean Markdown with local LLM support. |
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | - | Scraping library using LLMs to create pipelines from natural language. |
@@ -725,8 +725,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) | - | Strategies for getting better results from LLMs. |
 | [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | 38k | Interactive tutorial for effective prompt design with Claude. |
 | [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/) | - | Community-driven guide covering techniques and examples for all skill levels. |
-| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 118k | Free 21-lesson course covering generative AI fundamentals with code examples. |
-| [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 73k | Free 12-lesson course for getting started building AI agents. |
+| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 119k | Free 21-lesson course covering generative AI fundamentals with code examples. |
+| [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 74k | Free 12-lesson course for getting started building AI agents. |
 
 ### Courses
 
@@ -821,10 +821,10 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | List | Stars | Description |
 |------|-------|-------------|
 | [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 168k | Curated ChatGPT prompts for creative and effective use. |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 134k | LLM app examples with code. |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 135k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 13k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 10k | Tools and projects using LangChain. |
-| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 93k | Community-curated MCP server collection. |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 94k | Community-curated MCP server collection. |
 | [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 2k | LLM agent frameworks and tools. |
 | [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5k | Tools and resources for AI-assisted coding. |
 | [awesome-local-ai](https://github.com/janhq/awesome-local-ai) | 2k | Tools for running AI models locally. |
