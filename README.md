@@ -393,6 +393,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Keywords AI](https://keywordsai.co/) | Tracks usage, latency, and spend across providers. |
 | [Lunary](https://lunary.ai/) | LLM monitoring and analytics with cost tracking and prompt management. |
 | [OpenRouter](https://openrouter.ai/) | Unified API marketplace for 100+ LLMs with transparent pricing and cost optimization. |
+| [APICostCalc](https://apicostcalc.com/) | Free calculator comparing pricing across 387+ LLM API models — estimate monthly spend before committing to a provider. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
