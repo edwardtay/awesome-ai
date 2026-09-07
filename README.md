@@ -104,6 +104,7 @@
 |------|-------|-------------|
 | [OpenRouter](https://openrouter.ai/) | - | Unified API for 100+ LLMs from multiple providers with transparent pricing comparison. |
 | [LiteLLM](https://github.com/BerriAI/litellm) | 58k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
+| [Bifrost](https://github.com/maximhq/bifrost) | 7.8k | High-performance open-source Go gateway with an OpenAI-compatible API, adaptive load balancing, guardrails, virtual keys, and OpenTelemetry support. |
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
