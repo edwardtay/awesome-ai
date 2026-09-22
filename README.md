@@ -560,6 +560,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) | 91k | Official collection of reference server implementations. |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 95k | Community-curated collection covering 7,260+ servers across diverse integrations. |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | 487 | MIT-licensed, local-first CLI and MCP toolkit for coding agents to compose, edit and generate videos from editable plan.json timelines. |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 37k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
 
