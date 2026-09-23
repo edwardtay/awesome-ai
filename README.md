@@ -274,6 +274,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Phrase](https://phrase.com/) | Developer-friendly localization with extensive APIs and CLI tools for custom pipelines. |
 | [Lokalise](https://lokalise.com/) | 400+ languages with tone, style, and industry customization. |
 | [Tolgee](https://tolgee.io/) | In-context translating features, popular with JavaScript developers. |
+| [NitroTranslate](https://nitrotranslate.com) - Human translation API (professional translators, not MT); supports autonomous agent payments via MPP. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
