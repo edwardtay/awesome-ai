@@ -504,6 +504,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 
 | Tool | Description |
 |------|-------------|
+| [Agent QA](https://github.com/vostride/agent-qa) | Self-improving QA agent for natural-language web/mobile tests with persistent memory and self-healing flows. |
 | [testRigor](https://testrigor.com/) | Generative AI test automation from plain English descriptions. |
 | [Applitools](https://applitools.com/) | Visual AI detecting UI bugs across browsers and devices. |
 | [Testsigma](https://testsigma.com/) | Natural language test creation for web, mobile, and API. |
