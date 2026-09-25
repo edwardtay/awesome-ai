@@ -562,6 +562,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 95k | Community-curated collection covering 7,260+ servers across diverse integrations. |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 37k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
+| [Statsnet](https://github.com/usenetstate/statsnet-mcp) | - | Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
