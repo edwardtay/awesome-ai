@@ -860,3 +860,8 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 
 
 To the extent possible under law, [Edward Tay](https://github.com/edwardtay) has waived all copyright and related or neighboring rights to this work.
+
+
+## 🌐 OpenAI-Compatible AI Gateways
+
+- [APIClaw](https://apiclaw.biz) — Flat-rate OpenAI-compatible AI API gateway for Claude, GPT, Kimi, Qwen, DeepSeek, and GLM; 50 free trial requests, then plans from $19/month.
