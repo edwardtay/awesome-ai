@@ -226,6 +226,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [D-ID API](https://www.d-id.com/api/) | Talking-head videos from images and audio, supporting 120+ languages. |
 | [Google Veo API](https://deepmind.google/technologies/veo/) | Native audio integration and high-fidelity output via Vertex AI. |
 | [Twelve Labs](https://twelvelabs.io/) | Multimodal video understanding: search, classification, and generation from video content. |
+| [VideoGen API](https://videogen.io/videogen-api) | Commercial API that turns scripts, voiceovers, or slideshows into narrated videos with captions. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
