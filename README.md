@@ -550,7 +550,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Model Context Protocol Specification](https://modelcontextprotocol.io/) | - | The protocol spec defining how AI models connect to tools and data. |
-| [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | 13k | Official TypeScript SDK for building MCP servers and clients. |
+| [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | 14k | Official TypeScript SDK for building MCP servers and clients. |
 | [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) | 24k | Official Python SDK for building MCP servers and clients. |
 | [MCP Registry](https://registry.modelcontextprotocol.io/) | - | Catalog with ~2,000 entries and 407% growth since launch. |
 
@@ -673,7 +673,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Firecrawl](https://www.firecrawl.dev/) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 84k | AI-ready web crawler generating clean Markdown with local LLM support. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 85k | AI-ready web crawler generating clean Markdown with local LLM support. |
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | - | Scraping library using LLMs to create pipelines from natural language. |
@@ -820,8 +820,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 | List | Stars | Description |
 |------|-------|-------------|
-| [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 171k | Curated ChatGPT prompts for creative and effective use. |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 140k | LLM app examples with code. |
+| [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 172k | Curated ChatGPT prompts for creative and effective use. |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 141k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 13k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 10k | Tools and projects using LangChain. |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 96k | Community-curated MCP server collection. |
