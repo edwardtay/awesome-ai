@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.webp" alt="Awesome AI APIs and Tools: LLM providers, routers, agents, RAG, vector databases, image, video and speech APIs" width="100%"></p>
+
 # Awesome AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![Stars](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-ai/update-stars.yml?label=star%20updates)](https://github.com/edwardtay/awesome-ai/actions/workflows/update-stars.yml)
