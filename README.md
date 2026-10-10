@@ -820,6 +820,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 | List | Stars | Description |
 |------|-------|-------------|
+| [awesome-reverse-engineering](https://github.com/edwardtay/awesome-reverse-engineering) | - | Reverse engineering tools with safety flags and maintenance data: binaries, Android, firmware, smart contracts, MCP servers. |
 | [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 172k | Curated ChatGPT prompts for creative and effective use. |
 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 141k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 13k | Generative AI tools and resources. |
