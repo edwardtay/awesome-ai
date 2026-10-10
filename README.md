@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.webp" alt="Awesome AI APIs and Tools: LLM providers, routers, agents, RAG, vector databases, image, video and speech APIs" width="100%"></p>
+![Awesome AI APIs and Tools: LLM providers, routers, agents, RAG, vector databases, image, video and speech APIs](assets/banner.webp)
 
 # Awesome AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
