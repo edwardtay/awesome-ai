@@ -54,14 +54,14 @@
 |------|-------|-------------|
 | [Llama 4 (Meta)](https://ai.meta.com/llama/) | - | Scout (17B active/109B experts) and Maverick variants, 128K context, strong general performance. |
 | [Qwen 3 (Alibaba)](https://qwenlm.github.io/) | - | MoE family (up to 235B parameters) excelling in multilingual and reasoning tasks with open weights. |
-| [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) | 105k | 671B MoE model (MIT license) matching frontier models at a fraction of the cost. |
-| [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1) | 92k | Reasoning model trained via large-scale RL achieving o1-level performance (MIT license). |
+| [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) | 105k | 671B MoE model (MIT license) matching frontier models at a fraction of the cost. ⚠️ |
+| [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1) | 92k | Reasoning model trained via large-scale RL achieving o1-level performance (MIT license). ⚠️ |
 | [Mistral Large / Mixtral](https://mistral.ai/) | - | Mixtral MoE and Small 3 (24B) punching above their weight in efficiency. |
 | [Gemma 3 (Google)](https://ai.google.dev/gemma) | - | Available in multiple sizes with strong performance for its parameter count. |
 | [Phi-4 (Microsoft)](https://azure.microsoft.com/en-us/products/phi/) | - | Small language model built on synthetic datasets achieving state-of-the-art performance for its size. |
 | [Command R+ (Cohere)](https://cohere.com/) | - | Optimized for RAG and enterprise use with strong multilingual capabilities. |
 | [Yi (01.AI)](https://www.01.ai/) | - | Bilingual (Chinese-English) models with strong performance in independent benchmarks. |
-| [StarCoder2](https://github.com/bigcode-project/starcoder2) | 2k | Code LLM in 3B/7B/15B sizes where the 15B matches 33B+ models on code evaluations. |
+| [StarCoder2](https://github.com/bigcode-project/starcoder2) | 2k | Code LLM in 3B/7B/15B sizes where the 15B matches 33B+ models on code evaluations. ⚠️ |
 | [OLMo (Allen AI)](https://allenai.org/olmo) | - | Training data, code, and weights all publicly available for reproducible research. |
 | [DBRX (Databricks)](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | - | MoE model with 132B total / 36B active parameters for enterprise use cases. |
 
@@ -136,7 +136,7 @@
 | [Microsoft Semantic Kernel](https://learn.microsoft.com/semantic-kernel/) | - | LLM integration SDK with deep Azure ecosystem support across C#, Python, and Java. |
 | [DSPy](https://dspy.ai/) | - | Declarative framework for programming (not prompting) language models with automatic prompt optimization. |
 | [Haystack](https://haystack.deepset.ai/) | - | AI orchestration framework for LLM applications with modular pipelines. |
-| [Instructor](https://github.com/jxnl/instructor) | 14k | Structured output extraction using Pydantic models with validation and retry logic. |
+| [Instructor](https://github.com/567-labs/instructor) | 14k | Structured output extraction using Pydantic models with validation and retry logic. |
 | [Pydantic AI](https://ai.pydantic.dev/) | - | Agent framework from the Pydantic team with type-safe structured outputs. |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 30k | OpenAI's official framework for agentic workflows with tool use, handoffs, and guardrails. |
 | [Google ADK (Agent Development Kit)](https://google.github.io/adk-docs/) | - | Google's framework with native Gemini integration and multi-agent orchestration. |
@@ -165,14 +165,14 @@ Each tool takes a different approach to giving agents persistent memory across s
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [Instructor](https://github.com/jxnl/instructor) | 14k | Structured output extraction using Pydantic models with validation and retry logic. |
+| [Instructor](https://github.com/567-labs/instructor) | 14k | Structured output extraction using Pydantic models with validation and retry logic. |
 | [BAML](https://github.com/BoundaryML/baml) | 9k | Domain-specific language for writing and testing LLM functions with type-safe validation. |
 | [Marvin](https://github.com/prefecthq/marvin) | 6k | Lightweight Python library for natural language interfaces that extract structured data from LLMs. |
 | [Outlines](https://github.com/dottxt-ai/outlines) | 16k | Constrained text generation using regular expressions, JSON schemas, and context-free grammars. |
 | [Guidance](https://github.com/guidance-ai/guidance) | 22k | Microsoft's language for controlling LLMs with interleaving generation, prompting, and logical control. |
 | [SGLang](https://github.com/sgl-project/sglang) | 37k | Fast serving framework with built-in structured output via JSON schema, regex, and EBNF. |
 | [TypeChat](https://github.com/microsoft/TypeChat) | 9k | Uses TypeScript types to guide LLM outputs into well-typed structured responses. |
-| [JSONFormer](https://github.com/1rgs/jsonformer) | 5k | Constrains generation to only produce valid JSON tokens. |
+| [JSONFormer](https://github.com/1rgs/jsonformer) | 5k | Constrains generation to only produce valid JSON tokens. ⚠️ |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Enterprise document parsing with agentic OCR for extracting structured data from complex documents. |
 | [Docling](https://github.com/docling-project/docling) | 68k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
 
@@ -428,10 +428,10 @@ Each tool takes a different approach to giving agents persistent memory across s
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Guardrails AI](https://www.guardrailsai.com/) | - | LLM output validation with pre-built validators from Guardrails Hub. |
-| [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | 7k | Programmable safety guardrails using a domain-specific language. |
+| [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | 7k | Programmable safety guardrails using a domain-specific language. |
 | [Lakera Guard](https://www.lakera.ai/) | - | Real-time prompt injection detection with customizable safeguards and monitoring dashboards. |
 | [LLM Guard](https://llm-guard.com/) | - | Scanners for prompt injection, PII, and toxicity in LLM interactions. |
-| [Rebuff](https://github.com/protectai/rebuff) | 2k | Self-hardening prompt injection detector that learns from attack attempts over time. |
+| [Rebuff](https://github.com/protectai/rebuff) | 2k | Self-hardening prompt injection detector that learns from attack attempts over time. Archived. ⚠️ |
 | [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety) | - | Detects harmful content in text and images with configurable severity levels. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -612,7 +612,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [Ollama](https://ollama.com/) | - | Run LLMs locally with a single command; wide model support with easy management. |
 | [LM Studio](https://lmstudio.ai/) | - | Desktop app for running LLMs locally with Vulkan GPU offloading and model discovery. |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 130k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | 130k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
 | [vLLM](https://vllm.ai/) | - | High-throughput serving with PagedAttention and continuous batching. |
 | [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 15k | Inference runtime and optimization toolkit for large language models on NVIDIA GPUs. |
 | [MLX](https://github.com/ml-explore/mlx) | 29k | Apple's array and machine-learning framework optimized for Apple silicon. |
@@ -820,17 +820,18 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 | List | Stars | Description |
 |------|-------|-------------|
-| [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 172k | Curated ChatGPT prompts for creative and effective use. |
+| [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 172k | Curated ChatGPT prompts for creative and effective use. |
 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 141k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 13k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 10k | Tools and projects using LangChain. |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 96k | Community-curated MCP server collection. |
 | [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 2k | LLM agent frameworks and tools. |
 | [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5k | Tools and resources for AI-assisted coding. |
-| [awesome-local-ai](https://github.com/janhq/awesome-local-ai) | 2k | Tools for running AI models locally. |
+| [awesome-local-ai](https://github.com/janhq/awesome-local-ai) | 2k | Tools for running AI models locally. ⚠️ |
 | [awesome-scrapers](https://github.com/edwardtay/awesome-scrapers) | - | Scrapers, crawlers, and data extraction tools. |
 | [awesome-robotics](https://github.com/edwardtay/awesome-robotics) | - | Robotics frameworks, simulators, and platforms. |
 | [awesome-web3-ai](https://github.com/edwardtay/awesome-web3-ai) | - | Web3 x AI tools, agent frameworks, and protocols. |
+| [awesome-OSINT](https://github.com/edwardtay/awesome-OSINT) | - | OSINT tools: people search, domains, social media, geolocation, breach data. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
