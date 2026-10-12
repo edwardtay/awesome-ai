@@ -511,6 +511,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Testsigma](https://testsigma.com/) | Natural language test creation for web, mobile, and API. |
 | [Katalon](https://katalon.com/) | AI-powered test automation for web, mobile, API, and desktop. |
 | [mabl](https://www.mabl.com/) | Low-code, AI-driven test automation for Agile and DevOps. |
+| [Endtest](https://endtest.io/) | Agentic AI test automation for web and mobile apps, with autonomous test creation, natural-language testing, self-healing, and cross-browser execution. |
 | [QA Wolf](https://www.qawolf.com/) | AI + human-in-the-loop QA with Playwright-based testing and massive parallelization. |
 | [Qodo](https://www.qodo.ai/) | Generates meaningful test suites and improves code quality. |
 
