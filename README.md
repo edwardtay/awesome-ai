@@ -56,7 +56,7 @@
 |------|-------|-------------|
 | [Llama 4 (Meta)](https://ai.meta.com/llama/) | - | Scout (17B active/109B experts) and Maverick variants, 128K context, strong general performance. |
 | [Qwen 3 (Alibaba)](https://qwenlm.github.io/) | - | MoE family (up to 235B parameters) excelling in multilingual and reasoning tasks with open weights. |
-| [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) | 104k | 671B MoE model (MIT license) matching frontier models at a fraction of the cost. ⚠️ |
+| [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) | 105k | 671B MoE model (MIT license) matching frontier models at a fraction of the cost. ⚠️ |
 | [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1) | 92k | Reasoning model trained via large-scale RL achieving o1-level performance (MIT license). ⚠️ |
 | [Mistral Large / Mixtral](https://mistral.ai/) | - | Mixtral MoE and Small 3 (24B) punching above their weight in efficiency. |
 | [Gemma 3 (Google)](https://ai.google.dev/gemma) | - | Available in multiple sizes with strong performance for its parameter count. |
@@ -105,7 +105,7 @@
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [OpenRouter](https://openrouter.ai/) | - | Unified API for 100+ LLMs from multiple providers with transparent pricing comparison. |
-| [LiteLLM](https://github.com/BerriAI/litellm) | 61k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
+| [LiteLLM](https://github.com/BerriAI/litellm) | 62k | Proxy/gateway providing a unified API to 100+ LLMs with load balancing, fallbacks, and spend tracking. |
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
@@ -561,7 +561,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) | 91k | Official collection of reference server implementations. |
-| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 96k | Community-curated collection covering 7,260+ servers across diverse integrations. |
+| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 97k | Community-curated collection covering 7,260+ servers across diverse integrations. |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 38k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
 
@@ -614,7 +614,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [Ollama](https://ollama.com/) | - | Run LLMs locally with a single command; wide model support with easy management. |
 | [LM Studio](https://lmstudio.ai/) | - | Desktop app for running LLMs locally with Vulkan GPU offloading and model discovery. |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | 131k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | 132k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
 | [vLLM](https://vllm.ai/) | - | High-throughput serving with PagedAttention and continuous batching. |
 | [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 15k | Inference runtime and optimization toolkit for large language models on NVIDIA GPUs. |
 | [MLX](https://github.com/ml-explore/mlx) | 29k | Apple's array and machine-learning framework optimized for Apple silicon. |
@@ -675,7 +675,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Firecrawl](https://www.firecrawl.dev/) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 85k | AI-ready web crawler generating clean Markdown with local LLM support. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 86k | AI-ready web crawler generating clean Markdown with local LLM support. |
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | - | Scraping library using LLMs to create pipelines from natural language. |
@@ -720,14 +720,14 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [OpenAI API Quickstart](https://platform.openai.com/docs/quickstart) | - | Official getting started guide covering chat completions, tool use, and multimodal capabilities. |
 | [OpenAI Academy](https://academy.openai.com/) | - | Workshops from foundational AI literacy to advanced integration for engineers. |
 | [Anthropic Getting Started](https://docs.anthropic.com/en/docs/get-started) | - | Set up your environment, install an SDK, and send your first message to Claude. |
-| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) | 18k | Projects to help build deployable applications using the Claude API. |
+| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) | 19k | Projects to help build deployable applications using the Claude API. |
 | [Google Gemini Quickstart](https://ai.google.dev/gemini-api/docs/quickstart) | - | Step-by-step tutorials for getting started with Gemini models. |
 | [Google Gemini Cookbook](https://github.com/google-gemini/cookbook) | 18k | Official examples and guides for using the Gemini API. |
 | [OpenAI Cookbook](https://cookbook.openai.com/) | - | Recipes, guides, and notebooks for building with OpenAI models. |
 | [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) | - | Strategies for getting better results from LLMs. |
-| [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | 38k | Interactive tutorial for effective prompt design with Claude. |
+| [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | 39k | Interactive tutorial for effective prompt design with Claude. |
 | [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/) | - | Community-driven guide covering techniques and examples for all skill levels. |
-| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 121k | Free 21-lesson course covering generative AI fundamentals with code examples. |
+| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 122k | Free 21-lesson course covering generative AI fundamentals with code examples. |
 | [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 77k | Free 12-lesson course for getting started building AI agents. |
 
 ### Courses
@@ -823,11 +823,11 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | List | Stars | Description |
 |------|-------|-------------|
 | [awesome-reverse-engineering](https://github.com/edwardtay/awesome-reverse-engineering) | - | Reverse engineering tools with safety flags and maintenance data: binaries, Android, firmware, smart contracts, MCP servers. |
-| [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 173k | Curated ChatGPT prompts for creative and effective use. |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 141k | LLM app examples with code. |
+| [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 174k | Curated ChatGPT prompts for creative and effective use. |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 142k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 13k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 10k | Tools and projects using LangChain. |
-| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 96k | Community-curated MCP server collection. |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 97k | Community-curated MCP server collection. |
 | [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 2k | LLM agent frameworks and tools. |
 | [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5k | Tools and resources for AI-assisted coding. |
 | [awesome-local-ai](https://github.com/janhq/awesome-local-ai) | 2k | Tools for running AI models locally. ⚠️ |
