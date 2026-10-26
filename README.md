@@ -254,6 +254,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Perplexity Sonar API](https://docs.perplexity.ai/) | LLM-powered search providing direct answers with cited sources. |
 | [Tavily API](https://tavily.com/) | Built for agents and RAG workflows with SOC 2 certification. |
 | [Exa API](https://exa.ai/) | Semantic/neural search scoring 94.9% on SimpleQA, returning meaning-based results. |
+| [Parallel Search API](https://parallel.ai/) | Search built for AI agents that returns dense, LLM-ready excerpts; scores 75 on the Artificial Analysis Search Index (Oct 2026), and its Search MCP is free with no API key. |
 | [Brave Search API](https://brave.com/search/api/) | Independent index with no tracking and privacy-focused results. |
 | [SerpAPI](https://serpapi.com/) | SERP scraping across search engines for AI features, SEO, and price monitoring. |
 | [You.com API](https://you.com/apis) | Deep Search, Express Agent, and MCP support. |
