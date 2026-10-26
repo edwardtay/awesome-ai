@@ -251,15 +251,23 @@ Each tool takes a different approach to giving agents persistent memory across s
 
 | Tool | Description |
 |------|-------------|
-| [Perplexity Sonar API](https://docs.perplexity.ai/) | LLM-powered search providing direct answers with cited sources. |
+| [Perplexity Sonar API](https://docs.perplexity.ai/) | LLM-powered search providing direct answers with cited sources; its raw Search API scores 80 on the AA Search Index. |
 | [Tavily API](https://tavily.com/) | Built for agents and RAG workflows with SOC 2 certification. |
-| [Exa API](https://exa.ai/) | Semantic/neural search scoring 94.9% on SimpleQA, returning meaning-based results. |
-| [Parallel Search API](https://parallel.ai/) | Search built for AI agents that returns dense, LLM-ready excerpts; scores 75 on the Artificial Analysis Search Index (Oct 2026), and its Search MCP is free with no API key. |
-| [Brave Search API](https://brave.com/search/api/) | Independent index with no tracking and privacy-focused results. |
+| [Exa API](https://exa.ai/) | Semantic/neural search scoring 94.9% on SimpleQA and 80 on the AA Search Index, returning meaning-based results. |
+| [Parallel Search API](https://parallel.ai/) | Search built for AI agents that returns dense, LLM-ready excerpts; scores 75 on the AA Search Index, and its Search MCP is free with no API key. |
+| [Brave Search API](https://brave.com/search/api/) | Independent index with no tracking and privacy-focused results; scores 75 on the AA Search Index. |
 | [SerpAPI](https://serpapi.com/) | SERP scraping across search engines for AI features, SEO, and price monitoring. |
-| [You.com API](https://you.com/apis) | Deep Search, Express Agent, and MCP support. |
+| [You.com API](https://you.com/apis) | Deep Search, Express Agent, and MCP support; scores 74 on the AA Search Index. |
 | [Serper API](https://serper.dev/) | Fast, affordable Google SERP API for high-volume use cases. |
 | [WebSearch API](https://websearchapi.ai/) | Web search API designed for AI workflow integration. |
+| [Octen Search](https://octen.ai/) | Low-latency search index built for agents that fan out many sub-queries; scores 77 on the AA Search Index. |
+| [Linkup](https://www.linkup.so/) | Source-grounded search and answers with zero data retention; $5 per 1K standard queries. |
+| [TinyFish](https://www.tinyfish.ai/) | Agent-focused search and page fetch, free within rate limits, with a hosted MCP server. |
+| [Firecrawl Search](https://docs.firecrawl.dev/features/search) | Search that returns full scraped page content in one call; scores 73 on the AA Search Index. |
+| [Nimble Search](https://www.nimbleway.com/) | Real-time web search and extraction API for agents; scores 74 on the AA Search Index. |
+| [Jina Search](https://jina.ai/reader/) | `s.jina.ai` endpoint that returns top results as LLM-ready markdown. |
+
+AA Search Index scores come from [Artificial Analysis](https://artificialanalysis.ai/agents/search-api), an independent benchmark (data as of Oct 2026).
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
