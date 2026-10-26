@@ -123,6 +123,7 @@
 | [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning) | Automated ML, responsible AI dashboard, and managed endpoints. |
 | [Databricks](https://www.databricks.com/) | Unified analytics and AI with managed MLflow, Unity Catalog, and Mosaic AI. |
 | [IBM watsonx](https://www.ibm.com/watsonx) | Foundation models, model training, and AI governance for business workflows. |
+| [Alibaba Cloud Model Studio](https://www.alibabacloud.com/campaign/benefits?referral_code=A924QL) | Qwen models via API with OpenAI-compatible endpoints, plus fine-tuning and agent building on Alibaba Cloud. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -235,7 +236,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 
 | Tool | Description |
 |------|-------------|
-| [ElevenLabs API](https://elevenlabs.io/) | 3,000+ voices, 70+ languages, emotional nuance, and voice cloning. |
+| [ElevenLabs API](https://try.elevenlabs.io/hxv72bp6mdng) | 3,000+ voices, 70+ languages, emotional nuance, and voice cloning. |
 | [OpenAI Audio API](https://platform.openai.com/docs/guides/audio) | TTS and STT including gpt-4o-transcribe and Whisper for 50+ languages. |
 | [Deepgram API](https://deepgram.com/) | STT and TTS (Aura-2) optimized for conversational AI with sub-250ms latency. |
 | [AssemblyAI API](https://www.assemblyai.com/) | STT with speaker diarization, sentiment analysis, and content moderation. |
@@ -683,7 +684,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [Firecrawl](https://www.firecrawl.dev/) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
+| [Firecrawl](https://firecrawl.link/PzR7fd7) | - | Scrapes, crawls, and extracts structured data into LLM-ready formats. |
 | [Crawl4AI](https://github.com/unclecode/crawl4ai) | 86k | AI-ready web crawler generating clean Markdown with local LLM support. |
 | [Spider](https://spider.cloud/) | - | Fast web scraping designed for AI with structured data extraction. |
 | [Jina Reader](https://jina.ai/reader/) | - | Converts any URL into LLM-friendly text. |
@@ -873,3 +874,5 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 
 
 To the extent possible under law, [Edward Tay](https://github.com/edwardtay) has waived all copyright and related or neighboring rights to this work.
+
+<sub>Some links are referral links.</sub>
