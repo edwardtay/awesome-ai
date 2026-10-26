@@ -172,11 +172,11 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Marvin](https://github.com/prefecthq/marvin) | 6k | Lightweight Python library for natural language interfaces that extract structured data from LLMs. |
 | [Outlines](https://github.com/dottxt-ai/outlines) | 16k | Constrained text generation using regular expressions, JSON schemas, and context-free grammars. |
 | [Guidance](https://github.com/guidance-ai/guidance) | 22k | Microsoft's language for controlling LLMs with interleaving generation, prompting, and logical control. |
-| [SGLang](https://github.com/sgl-project/sglang) | 37k | Fast serving framework with built-in structured output via JSON schema, regex, and EBNF. |
+| [SGLang](https://github.com/sgl-project/sglang) | 38k | Fast serving framework with built-in structured output via JSON schema, regex, and EBNF. |
 | [TypeChat](https://github.com/microsoft/TypeChat) | 9k | Uses TypeScript types to guide LLM outputs into well-typed structured responses. |
 | [JSONFormer](https://github.com/1rgs/jsonformer) | 5k | Constrains generation to only produce valid JSON tokens. ⚠️ |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Enterprise document parsing with agentic OCR for extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 69k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
+| [Docling](https://github.com/docling-project/docling) | 70k | Document conversion toolkit supporting PDFs, office documents, HTML, images, and structured output. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -345,7 +345,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Amazon Textract](https://aws.amazon.com/textract/) | - | Extracts text, forms, and tables integrated with S3 and Lambda. |
 | [Mistral OCR](https://mistral.ai/news/mistral-ocr) | - | OCR API for extracting structured content from documents. |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Agentic OCR extracting structured data from complex documents. |
-| [Docling](https://github.com/docling-project/docling) | 69k | Document conversion toolkit with table, layout, and structured-output support. |
+| [Docling](https://github.com/docling-project/docling) | 70k | Document conversion toolkit with table, layout, and structured-output support. |
 | [Mathpix](https://mathpix.com/) | - | Specialized in mathematical equations, scientific documents, and LaTeX conversion. |
 | [Reducto](https://www.reducto.ai/) | - | API-first parsing for extracting structured data from PDFs for RAG pipelines. |
 | [Mindee](https://www.mindee.com/) | - | Developer-friendly extraction for invoices, receipts, IDs, and custom document types. |
@@ -560,9 +560,9 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) | 91k | Official collection of reference server implementations. |
+| [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) | 92k | Official collection of reference server implementations. |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 97k | Community-curated collection covering 7,260+ servers across diverse integrations. |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 38k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 39k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -728,7 +728,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | 39k | Interactive tutorial for effective prompt design with Claude. |
 | [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/) | - | Community-driven guide covering techniques and examples for all skill levels. |
 | [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | 122k | Free 21-lesson course covering generative AI fundamentals with code examples. |
-| [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 77k | Free 12-lesson course for getting started building AI agents. |
+| [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 78k | Free 12-lesson course for getting started building AI agents. |
 
 ### Courses
 
@@ -823,8 +823,8 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | List | Stars | Description |
 |------|-------|-------------|
 | [awesome-reverse-engineering](https://github.com/edwardtay/awesome-reverse-engineering) | - | Reverse engineering tools with safety flags and maintenance data: binaries, Android, firmware, smart contracts, MCP servers. |
-| [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 174k | Curated ChatGPT prompts for creative and effective use. |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 142k | LLM app examples with code. |
+| [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 175k | Curated ChatGPT prompts for creative and effective use. |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 143k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 13k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 10k | Tools and projects using LangChain. |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 97k | Community-curated MCP server collection. |
