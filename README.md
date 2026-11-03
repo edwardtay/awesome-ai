@@ -109,6 +109,7 @@
 | [Martian](https://withmartian.com/) | - | AI-powered router that automatically selects the best model for each request using Model Mapping. |
 | [Portkey](https://portkey.ai/) | - | Enterprise gateway with load balancing, caching, fallbacks, and observability. |
 | [Helicone](https://www.helicone.ai/) | - | Rust-based gateway with load balancing, native observability, and cost tracking. |
+| [Code By AI](https://www.codebyai.net/) | - | Commercial pay-per-token API gateway giving coding agents like Claude Code, Codex CLI and Gemini CLI one API key for Claude, GPT and Gemini models via an OpenAI-compatible endpoint. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
