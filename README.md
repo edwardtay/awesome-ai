@@ -141,7 +141,7 @@
 | [Haystack](https://haystack.deepset.ai/) | - | AI orchestration framework for LLM applications with modular pipelines. |
 | [Instructor](https://github.com/567-labs/instructor) | 14k | Structured output extraction using Pydantic models with validation and retry logic. |
 | [Pydantic AI](https://ai.pydantic.dev/) | - | Agent framework from the Pydantic team with type-safe structured outputs. |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 30k | OpenAI's official framework for agentic workflows with tool use, handoffs, and guardrails. |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 31k | OpenAI's official framework for agentic workflows with tool use, handoffs, and guardrails. |
 | [Google ADK (Agent Development Kit)](https://google.github.io/adk-docs/) | - | Google's framework with native Gemini integration and multi-agent orchestration. |
 | [Smolagents](https://github.com/huggingface/smolagents) | 30k | Hugging Face's lightweight agent framework with minimal boilerplate. |
 | [CopilotKit](https://www.copilotkit.ai/) | - | Framework for building AI copilots into React applications with AG-UI protocol support. |
@@ -173,7 +173,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Marvin](https://github.com/prefecthq/marvin) | 6k | Lightweight Python library for natural language interfaces that extract structured data from LLMs. |
 | [Outlines](https://github.com/dottxt-ai/outlines) | 16k | Constrained text generation using regular expressions, JSON schemas, and context-free grammars. |
 | [Guidance](https://github.com/guidance-ai/guidance) | 22k | Microsoft's language for controlling LLMs with interleaving generation, prompting, and logical control. |
-| [SGLang](https://github.com/sgl-project/sglang) | 38k | Fast serving framework with built-in structured output via JSON schema, regex, and EBNF. |
+| [SGLang](https://github.com/sgl-project/sglang) | 39k | Fast serving framework with built-in structured output via JSON schema, regex, and EBNF. |
 | [TypeChat](https://github.com/microsoft/TypeChat) | 9k | Uses TypeScript types to guide LLM outputs into well-typed structured responses. |
 | [JSONFormer](https://github.com/1rgs/jsonformer) | 5k | Constrains generation to only produce valid JSON tokens. ⚠️ |
 | [LlamaParse](https://www.llamaindex.ai/llamaparse) | - | Enterprise document parsing with agentic OCR for extracting structured data from complex documents. |
@@ -571,7 +571,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) | 92k | Official collection of reference server implementations. |
-| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 97k | Community-curated collection covering 7,260+ servers across diverse integrations. |
+| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 98k | Community-curated collection covering 7,260+ servers across diverse integrations. |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 39k | Microsoft's server enabling LLMs to interact with web pages through accessibility snapshots. |
 | [ActionKit by Paragon](https://www.useparagon.com/) | - | Connects to 130+ SaaS integrations for AI agent workflows. |
 
@@ -624,7 +624,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 |------|-------|-------------|
 | [Ollama](https://ollama.com/) | - | Run LLMs locally with a single command; wide model support with easy management. |
 | [LM Studio](https://lmstudio.ai/) | - | Desktop app for running LLMs locally with Vulkan GPU offloading and model discovery. |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | 133k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | 134k | C/C++ inference engine optimized for CPU-only inference with extensive quantization. |
 | [vLLM](https://vllm.ai/) | - | High-throughput serving with PagedAttention and continuous batching. |
 | [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 15k | Inference runtime and optimization toolkit for large language models on NVIDIA GPUs. |
 | [MLX](https://github.com/ml-explore/mlx) | 29k | Apple's array and machine-learning framework optimized for Apple silicon. |
@@ -730,7 +730,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [OpenAI API Quickstart](https://platform.openai.com/docs/quickstart) | - | Official getting started guide covering chat completions, tool use, and multimodal capabilities. |
 | [OpenAI Academy](https://academy.openai.com/) | - | Workshops from foundational AI literacy to advanced integration for engineers. |
 | [Anthropic Getting Started](https://docs.anthropic.com/en/docs/get-started) | - | Set up your environment, install an SDK, and send your first message to Claude. |
-| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) | 19k | Projects to help build deployable applications using the Claude API. |
+| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) | 20k | Projects to help build deployable applications using the Claude API. |
 | [Google Gemini Quickstart](https://ai.google.dev/gemini-api/docs/quickstart) | - | Step-by-step tutorials for getting started with Gemini models. |
 | [Google Gemini Cookbook](https://github.com/google-gemini/cookbook) | 18k | Official examples and guides for using the Gemini API. |
 | [OpenAI Cookbook](https://cookbook.openai.com/) | - | Recipes, guides, and notebooks for building with OpenAI models. |
@@ -833,11 +833,11 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | List | Stars | Description |
 |------|-------|-------------|
 | [awesome-reverse-engineering](https://github.com/edwardtay/awesome-reverse-engineering) | - | Reverse engineering tools with safety flags and maintenance data: binaries, Android, firmware, smart contracts, MCP servers. |
-| [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 176k | Curated ChatGPT prompts for creative and effective use. |
+| [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) | 177k | Curated ChatGPT prompts for creative and effective use. |
 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 144k | LLM app examples with code. |
 | [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 13k | Generative AI tools and resources. |
 | [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | 10k | Tools and projects using LangChain. |
-| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 97k | Community-curated MCP server collection. |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 98k | Community-curated MCP server collection. |
 | [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 2k | LLM agent frameworks and tools. |
 | [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5k | Tools and resources for AI-assisted coding. |
 | [awesome-local-ai](https://github.com/janhq/awesome-local-ai) | 2k | Tools for running AI models locally. ⚠️ |
