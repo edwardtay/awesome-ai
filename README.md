@@ -648,6 +648,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Paperspace (DigitalOcean)](https://www.paperspace.com/) | Notebooks, virtual desktops, and serverless functions for ML development. |
 | [Crusoe Cloud](https://crusoe.ai/) | Clean-energy-powered GPU cloud for sustainable AI workloads. |
 | [Fluidstack](https://www.fluidstack.io/) | Distributed GPU cloud aggregating idle compute at competitive prices. |
+| [CloudGPU](https://cloudgpu.app) | RTX 4090/5090 GPU rental and an OpenAI-compatible model API for AI developers. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
