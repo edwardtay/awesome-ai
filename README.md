@@ -664,6 +664,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [Sider](https://sider.ai/) | Browser sidebar unifying GPT, DeepSeek, Gemini, Claude, and Grok for comparing outputs. |
 | [Pieces for Developers](https://pieces.app/) | Captures live context from browsers to IDEs with multiple LLM support. |
 | [HARPA AI](https://harpa.ai/) | Chrome extension combining ChatGPT, Claude, Gemini, Perplexity for web page automation. |
+| [Whizi](https://whizi.io/) | One subscription for GPT, Claude, Gemini, Grok, DeepSeek and more in one chat, plus image, video and music generation; web, iOS, Android and Chrome extension. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
