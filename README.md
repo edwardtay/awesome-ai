@@ -773,6 +773,7 @@ Anthropic's open standard (donated to Linux Foundation AAIF) for connecting AI m
 | [The Neuron](https://www.theneurondaily.com/) | Morning-Brew-style AI newsletter for 550K+ professionals. |
 | [Latent Space](https://www.latent.space/) | Technical AI newsletter and podcast on research and infrastructure. |
 | [Simon Willison's Weblog](https://simonwillison.net/) | Blog covering LLMs, AI tools, and open source from a prolific builder. |
+| [AIHOT Weekly](https://aihot.news/weekly) | Chinese-language weekly roundup of AI model launches, research, product releases, and industry developments. |
 
 ### Podcasts
 
