@@ -369,7 +369,7 @@ AA Search Index scores come from [Artificial Analysis](https://artificialanalysi
 | [Vanna.ai](https://vanna.ai/) | Self-hosted AI SQL agent with personalized schema training. |
 | [Defog.ai](https://defog.ai/) | Text-to-SQL engine achieving 90-95% accuracy, matching GPT-4 on specialized benchmarks. |
 | [Text2SQL.ai](https://www.text2sql.ai/) | Converts natural language to SQL with multiple dialect support. |
-| [DBConvert Studio](https://dbconvert.com/assistant/) | Commercial database migration tool with an AI assistant that generates SQL from natural language. |
+| [DBConvert Studio](https://dbconvert.com/assistant/) | Commercial database migration and sync tool with an AI assistant for connection setup, SQL generation, and explaining jobs and errors; supports local models. |
 | [DBHub](https://dbhub.ai/) | Universal database MCP server enabling AI assistants to query databases. |
 | [Outerbase](https://www.outerbase.com/) | Spreadsheet-like views with EZQL natural language agent. |
 | [SQL Chat](https://www.sqlchat.ai/) | Chat-based SQL client using natural language. |
