@@ -267,6 +267,7 @@ Each tool takes a different approach to giving agents persistent memory across s
 | [Firecrawl Search](https://docs.firecrawl.dev/features/search) | Search that returns full scraped page content in one call; scores 73 on the AA Search Index. |
 | [Nimble Search](https://www.nimbleway.com/) | Real-time web search and extraction API for agents; scores 74 on the AA Search Index. |
 | [Jina Search](https://jina.ai/reader/) | `s.jina.ai` endpoint that returns top results as LLM-ready markdown. |
+| [Desearch](https://desearch.ai/) | Commercial web search API for AI agents with page extraction and an MCP server. |
 
 AA Search Index scores come from [Artificial Analysis](https://artificialanalysis.ai/agents/search-api), an independent benchmark (data as of Oct 2026).
 
